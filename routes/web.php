@@ -31,3 +31,7 @@ Route::get("/ejemplo2", [PruebaController::class, 'ejemplo2']);
 
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -16,8 +16,13 @@ use App\Http\Controllers\PruebaController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('portafolio');
 });
+
+Route::get('/prueba1', function () {
+    return view('auth/passwords/email1');
+});
+
 
 
 Route::get('/employee', 'App\Http\Controllers\EmployeeController@index');

@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/latino', function () {
+    return view('fromtem/layouts');
+});
+
 
 Route::get('/employee', 'App\Http\Controllers\EmployeeController@index');
 Route::get('/employee/index', 'App\Http\Controllers\EmployeeController@index');

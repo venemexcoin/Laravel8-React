@@ -5,6 +5,7 @@
       <label for="check">
         <i class="fas fa-bars"></i>
       </label>
+      
     </div>
     <div class="sidebar_menu">
       <div class="logo">

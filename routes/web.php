@@ -16,9 +16,12 @@ use App\Http\Controllers\PruebaController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/');
 });
 
+Route::get('/pruebafrom', function () {
+    return view('/from.index');
+});
 
 Route::get('/employee', 'App\Http\Controllers\EmployeeController@index');
 Route::get('/employee/index', 'App\Http\Controllers\EmployeeController@index');

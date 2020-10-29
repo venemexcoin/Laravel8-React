@@ -16,12 +16,10 @@ use App\Http\Controllers\PruebaController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontem');
 });
 
-Route::get('/latino', function () {
-    return view('fromtem/layouts');
-});
+
 
 
 Route::get('/employee', 'App\Http\Controllers\EmployeeController@index');

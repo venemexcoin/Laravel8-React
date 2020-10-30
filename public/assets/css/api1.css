@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    margin: 10px 10px 0 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-title {
+    text-align: center;
+    margin: 40px 10px 40px;
+}
+
+.box {
+    background: slateblue;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}

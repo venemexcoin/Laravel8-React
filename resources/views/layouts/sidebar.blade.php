@@ -19,7 +19,7 @@
       <div class="menu">
         <ul>
           <li><i class="fas fa-qrcode"></i>
-            <a href="{{ url('employee')}}">employee</a>
+          <a href="{{ url('/')}}">Home</a>
           </li>
           <li>
             <i class="fas fa-link"></i>

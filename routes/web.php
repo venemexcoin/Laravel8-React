@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('/from.index');
 });
 
+Route::get('/temporal', function () {
+    return view('/apis.fiatcripto');
+});
+
 
 
 Route::get('/employee', 'App\Http\Controllers\EmployeeController@index');

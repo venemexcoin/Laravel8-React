@@ -11,7 +11,7 @@
 
 @section('content')
 
-<h1 class="grid-title">Distribucion de GRID</h1>
+<h1 class="grid-title">Distribucion de API</h1>
 
 <div class="contenedor">
    

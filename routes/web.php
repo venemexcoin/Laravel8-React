@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('/from.index');
 });
 
-Route::get('/temporal', function () {
+Route::get('/api1', function () {
     return view('/apis.fiatcripto');
 });
 

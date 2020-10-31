@@ -23,7 +23,7 @@
           </li>
           <li>
             <i class="fas fa-link"></i>
-            <a href="#">Shortcuts</a>
+            <a href="{{ url('/api1')}}">Primera API</a>
           </li>
           <li>
             <i class="fas fa-stream"></i>

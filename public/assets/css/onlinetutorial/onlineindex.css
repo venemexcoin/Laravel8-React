@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    margin: 10px 10px 0 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-title {
+    text-align: center;
+    margin: 40px 10px 40px;
+}
+
+.box {
+    background: slateblue;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.online-asside {
+    width: 80%;
+    height: 622px;
+    /* background: blue; */
+    margin-left: 10%;
+}
+
+.online-card {
+    width: 80%;
+    height: auto;
+    background: blueviolet;
+    margin: 20px 0 20px 10%;
+    box-shadow: 10px 10px grey;
+    margin-bottom: 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.online-card__body {
+    display: block;
+    padding: 5px 0 15px 0;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    border: 3px solid transparent;
+}
+
+.online-card__body .online-card__title {
+    font-size: 1.5em;
+}
+
+.online-card__descrition {
+    color: rgb(127, 127, 127);
+    margin-left: 15px;
+}
+
+.online-card__descrition > span {
+    margin-left: 12px;
+}
+
+.online-card__descrition > p {
+    padding-bottom: 20px;
+}
+
+.online-card__descrition:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-title {
+        font-size: 25px;
+    }
+    .online-card__body {
+        font-size: 0.7em;
+    }
+}

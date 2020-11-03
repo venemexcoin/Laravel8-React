@@ -19,19 +19,19 @@
       <div class="menu">
         <ul>
           <li><i class="fas fa-qrcode"></i>
-            <a href="{{ url('employee')}}">employee</a>
+            <a href="{{ url('employee')}}">CRUD</a>
           </li>
           <li>
             <i class="fas fa-link"></i>
             <a href="{{ url('/api1')}}">Primera API</a>
           </li>
           <li>
-            <i class="fas fa-stream"></i>
-            <a href="#">Overview</a>
+            <img src="{{asset('assets/img/fromtem/Online.png')}}" class="fromtem-img__online">
+            <a href="{{ url('/onlinetutorial')}}">Online Tutorial</a>
           </li>
           <li>
-            <i class="fas fa-calendar-week"></i>
-            <a href="#">Events</a>
+            <img src="{{asset('assets/img/fromtem/codigoNepal.png')}}" class="fromtem-img__nepal">
+            <a href="{{ url('/codigonepal')}}">CodigoNepal</a>
           </li>
           <li>
             <i class="fas fa-question-circle"></i>

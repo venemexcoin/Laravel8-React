@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PruebaController;
+use App\Http\Controllers\Recursos\CodigonepalController;
+use App\Http\Controllers\Recursos\OnlinetutorialController;
 
 
 /*
@@ -34,5 +36,15 @@ Route::get('/employee/edit/{num}', 'App\Http\Controllers\EmployeeController@inde
 Route::get("/ejemplo1", [PruebaController::class, 'ejemplo1']);
 Route::get("/ejemplo2", [PruebaController::class, 'ejemplo2']);
 
+/*Codigo Nepal Rutas */
+
+Route::get("/codigonepal", [CodigonepalController::class, 'codigonepal']);
 
 
+
+/*Onile Tutoriales Rutas */
+
+Route::get("/onlinetutorial", [OnlinetutorialController::class, 'onlinetutorial']);
+Route::get("/panel", [OnlinetutorialController::class, 'panel']);
+
+Route::get("/onlinetutorial/ejercicio1", [OnlinetutorialController::class, 'ejercicio1']);

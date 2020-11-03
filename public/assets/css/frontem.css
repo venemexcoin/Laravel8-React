@@ -42,6 +42,15 @@
     top: 80px;
     width: 100%;
 }
+
+.sidebar_menu .menu li .fromtem-img__online {
+    width: 27px;
+}
+
+.sidebar_menu .menu li .fromtem-img__nepal {
+    width: 27px;
+}
+
 .sidebar_menu .menu li {
     margin-top: 6px;
     padding: 14px 20px;

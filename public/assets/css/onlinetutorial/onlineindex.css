@@ -35,11 +35,18 @@
 .online-card {
     width: 80%;
     height: auto;
-    background: blueviolet;
     margin: 20px 0 20px 10%;
     box-shadow: 10px 10px grey;
     margin-bottom: 30px;
     font-family: 'Russo One', sans-serif;
+    border-radius: 15px;
+}
+
+.online-card::before,
+.online-card {
+    background: linear-gradient(135deg, #64b5f6, #f330d6);
+    filter: blur(1px);
+    transform: translateY(30px) scale(0.9);
 }
 
 .online-card__body {
@@ -70,6 +77,10 @@
 
 .online-card__descrition:hover {
     color: #fff;
+}
+
+.online-card:hover {
+    filter: blur(0);
 }
 
 @media screen and (max-width: 768px) {

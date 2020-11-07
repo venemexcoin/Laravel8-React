@@ -10,4 +10,6 @@ class CodigonepalController extends Controller
     public function codigonepal() {
         return view('codigoNepal.index');
     }
+
+    
 }

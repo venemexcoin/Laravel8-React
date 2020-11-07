@@ -12,11 +12,11 @@
 @section('content')
 
 <div class="galeria">
-    <h1>Galeria Botones & Social</h1>
+    <h1>Galeria Paginas Completas</h1>
     <div class="linea"></div>
     <div class="contenedor-imagenes">
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/1.jpg')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/3.jpg')}}" alt="">
             <div class="overlay">
                 <a href="#">Visualizas</a>
                 <h4>Boton</h4>

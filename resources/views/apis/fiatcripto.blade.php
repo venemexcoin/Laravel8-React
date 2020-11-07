@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('title_base')
-    GRID 1
+    Api Panel
 @endsection
 
 @section('style')
@@ -11,10 +11,103 @@
 
 @section('content')
 
-<h1 class="grid-title">Distribucion de API</h1>
+<div class="body">
 
-<div class="contenedor">
-   
+<div class="container">
+    <div class="card">
+      <div class="face face1">
+        <div class="content">
+           <i class="fab fa-bitcoin"></i>            
+          <h3>Bitcoin</h3>
+        </div>
+      </div>
+      <div class="face face2">
+        <div class="content">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" type="button">Read More</a>
+        </div>
+      </div>
+   </div>
+
+   <div class="card">
+    <div class="face face1">
+      <div class="content">
+         <i class="fab fa-ethereum"></i>            
+        <h3>Windows</h3>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" type="button">Read More</a>
+      </div>
+    </div>
+ </div>
+
+ <div class="card">
+    <div class="face face1">
+      <div class="content">
+         <i class="fab fa-windows"></i>            
+        <h3>Windows</h3>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" type="button">Read More</a>
+      </div>
+    </div>
+ </div>
+
+ <div class="card">
+    <div class="face face1">
+      <div class="content">
+         <i class="fab fa-windows"></i>            
+        <h3>Windows</h3>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" type="button">Read More</a>
+      </div>
+    </div>
+ </div>
+
+ <div class="card">
+    <div class="face face1">
+      <div class="content">
+         <i class="fab fa-windows"></i>            
+        <h3>Windows</h3>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" type="button">Read More</a>
+      </div>
+    </div>
+ </div>
+
+ <div class="card">
+    <div class="face face1">
+      <div class="content">
+         <i class="fab fa-windows"></i>            
+        <h3>Windows</h3>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" type="button">Read More</a>
+      </div>
+    </div>
+ </div>
 </div>
 
+
+@endsection
+
+@section('script')
+<script src="{{asset('assets/js/api1.js')}}"></script>
 @endsection

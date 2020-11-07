@@ -1,6 +1,6 @@
 
 
-    <input type="checkbox" id="check">
+    <input type="checkbox" name="checkAddress" onclick="checkAddress(this)" id="check">
     <div class="btn_one">
       <label for="check">
         <i class="fas fa-bars"></i>

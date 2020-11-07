@@ -5,8 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.main_box {
-}
+
 .main_box .sidebar_menu {
     position: fixed;
     height: 100vh;

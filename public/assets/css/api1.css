@@ -10,12 +10,12 @@
     grid-gap: 20px;
 }
 
-.box {
+/* .box {
     background: slateblue;
     padding: 10px;
     color: #fff;
     text-align: center;
-}
+} */
 .body {
     display: flex;
     margin: 0;
@@ -43,6 +43,7 @@
 .container .card .face {
     width: 150px;
     height: 100px;
+    margin-bottom: 10px;
     transition: 0.4s;
 }
 
@@ -141,6 +142,6 @@ a {
 @media only screen and (max-width: 690px) {
     .container {
         width: 280px;
-        margin: 40px -25<<<0px 0 50px;
+        margin: 40px -250px 0 50px;
     }
 }

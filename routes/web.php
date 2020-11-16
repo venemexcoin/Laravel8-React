@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PruebaController;
 use App\Http\Controllers\Recursos\CodigonepalController;
 use App\Http\Controllers\Recursos\OnlinetutorialController;
+use App\Http\Controllers\Recursos\CodingLabController;
 
 
 /*
@@ -50,3 +51,10 @@ Route::get("/panel1", [OnlinetutorialController::class, 'panel1']);
 Route::get("/panel2", [OnlinetutorialController::class, 'panel2']);
 
 Route::get("/onlinetutorial/ejercicio1", [OnlinetutorialController::class, 'ejercicio1']);
+
+/*Codigo CodingLab */
+
+Route::get("/codinglab", [CodingLabController::class, 'codinglab']);
+Route::get("/panelcodelab", [CodingLabController::class, 'panelcodelab']);
+
+Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);

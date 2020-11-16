@@ -34,8 +34,8 @@
             <a href="{{ url('/codigonepal')}}">CodigoNepal</a>
           </li>
           <li>
-            <i class="fas fa-question-circle"></i>
-            <a href="#">About</a>
+            <img src="{{asset('assets/img/fromtem/CodingLab.png')}}" class="fromtem-img__nepal">
+            <a href="{{ url('/codinglab')}}">CodingLab</a>
           </li>
           <li>
             <i class="fas fa-sliders-h"></i>

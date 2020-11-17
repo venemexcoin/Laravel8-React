@@ -36,6 +36,12 @@
         </div>
         
     </div>
+
+    <div class="online-card">
+        <a href="{{ url('panel3')}}" class="online-card__body"><span class="online-card__title">Animaciones</span></a>
+        <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
+            <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p>
+    </div>
 </div>
 
 <div class="contenedor">

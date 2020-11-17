@@ -49,6 +49,7 @@ Route::get("/onlinetutorial", [OnlinetutorialController::class, 'onlinetutorial'
 Route::get("/panel", [OnlinetutorialController::class, 'panel']);
 Route::get("/panel1", [OnlinetutorialController::class, 'panel1']);
 Route::get("/panel2", [OnlinetutorialController::class, 'panel2']);
+Route::get("/panel3", [OnlinetutorialController::class, 'panel3']);
 
 Route::get("/onlinetutorial/ejercicio1", [OnlinetutorialController::class, 'ejercicio1']);
 

@@ -12,7 +12,7 @@ body {
 }
 
 .side-bar {
-    position: relative;
+    position: absolute;
     top: 0;
     left: -100%;
     width: 300px;

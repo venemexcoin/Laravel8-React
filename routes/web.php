@@ -5,6 +5,7 @@ use App\Http\Controllers\PruebaController;
 use App\Http\Controllers\Recursos\CodigonepalController;
 use App\Http\Controllers\Recursos\OnlinetutorialController;
 use App\Http\Controllers\Recursos\CodingLabController;
+use App\Http\Controllers\Recursos\BluuwebController;
 
 
 /*
@@ -59,3 +60,8 @@ Route::get("/codinglab", [CodingLabController::class, 'codinglab']);
 Route::get("/panelcodelab", [CodingLabController::class, 'panelcodelab']);
 
 Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);
+
+
+/*--- Bluuweb ----*/
+
+Route::get("/bluuweb", [BluuwebController::class, 'bluuweb']);

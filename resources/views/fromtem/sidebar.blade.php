@@ -38,8 +38,8 @@
             <a href="{{ url('/codinglab')}}">CodingLab</a>
           </li>
           <li>
-            <i class="fas fa-sliders-h"></i>
-            <a href="#">Services</a>
+            <img src="{{asset('assets/img/fromtem/bluuweb2.png')}}" class="fromtem-img__nepal">
+            <a href="{{ url('/bluuweb')}}">Bluuweb</a>
           </li>
           <li>
             <i class="fas fa-phone-volume"></i>

@@ -65,3 +65,5 @@ Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);
 /*--- Bluuweb ----*/
 
 Route::get("/bluuweb", [BluuwebController::class, 'bluuweb']);
+
+Route::get("/bluuweb/ejercicio1", [BluuwebController::class, 'ejercicio1']);

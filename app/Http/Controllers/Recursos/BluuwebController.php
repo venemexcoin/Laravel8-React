@@ -10,4 +10,8 @@ class BluuwebController extends Controller
     public function bluuweb() {
         return view('bluuweb.index');
     }
+
+    public function ejercicio1() {
+        return view('bluuweb.ejemplos.ejercicio1');
+    }
 }

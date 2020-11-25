@@ -21,8 +21,8 @@
          </div>
          <ul>
              <li><a href="{{url('/')}}"><i class="fas fa-home"></i>Home</a></li>
-             <li><a href="{{url('codinglab')}}"><i class="fas fa-link"></i>CodingLab</a></li>
-             <li><a href="{{url('panelcodelab')}}"><i class="fas fa-stream"></i>Galeria</a></li>
+             <li><a href="{{url('/bluuweb')}}"><i class="fas fa-link"></i>Bluuweb</a></li>
+             <li><a href="#"><i class="fas fa-stream"></i>Indefinido</a></li>
              <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
              <li><a href="#"><i class="fas fa-question-circle"></i>About</a></li>
              <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>

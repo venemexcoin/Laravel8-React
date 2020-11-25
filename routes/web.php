@@ -51,6 +51,7 @@ Route::get("/panel", [OnlinetutorialController::class, 'panel']);
 Route::get("/panel1", [OnlinetutorialController::class, 'panel1']);
 Route::get("/panel2", [OnlinetutorialController::class, 'panel2']);
 Route::get("/panel3", [OnlinetutorialController::class, 'panel3']);
+Route::get("/panel4", [OnlinetutorialController::class, 'panel4']);
 
 Route::get("/onlinetutorial/ejercicio1", [OnlinetutorialController::class, 'ejercicio1']);
 
@@ -67,3 +68,4 @@ Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);
 Route::get("/bluuweb", [BluuwebController::class, 'bluuweb']);
 
 Route::get("/bluuweb/ejercicio1", [BluuwebController::class, 'ejercicio1']);
+Route::get("/bluuweb/ejercicio2", [BluuwebController::class, 'ejercicio2']);

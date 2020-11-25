@@ -14,4 +14,8 @@ class BluuwebController extends Controller
     public function ejercicio1() {
         return view('bluuweb.ejemplos.ejercicio1');
     }
+
+    public function ejercicio2() {
+        return view('bluuweb.ejemplos.ejercicio2');
+    }
 }

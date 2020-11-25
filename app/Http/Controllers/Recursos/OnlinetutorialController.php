@@ -10,6 +10,9 @@ class OnlinetutorialController extends Controller
     public function onlinetutorial() {
         return view('onlinetutorial.index');
     }
+
+    // Menu Principales
+
     public function panel() {
         return view('onlinetutorial.panel');
     }
@@ -26,6 +29,12 @@ class OnlinetutorialController extends Controller
         return view('onlinetutorial.panel3');
     }
 
+    public function panel4() {
+        return view('onlinetutorial.panel4');
+    }
+
+    // Rutas de ejemplos
+    
     public function ejercicio1() {
         return view('onlinetutorial.ejemplos.ejercicio1');
     }

@@ -35,7 +35,7 @@
             </li>
             <li>
               <i class="fas fa-link"></i>
-              <a href="#">Shortcuts</a>
+              <a href="{{ url('/onlinetutorial')}}">Online Tutoriales</a>
             </li>
             <li>
               <i class="fas fa-stream"></i>

@@ -25,7 +25,7 @@
   <div class="item2 bluuwed-menu">
       <ol>
           <li><a href="{{url('/bluuweb/ejercicio1')}}">ejemplo1 si uso</a></li>
-          <li><a href="">No definido</a></li>
+          <li><a href="{{url('/bluuweb/ejercicio2')}}">TiDo List</a></li>
           <li><a href="">No definido</a></li>
       </ol>
   </div>

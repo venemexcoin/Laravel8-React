@@ -6,6 +6,9 @@ use App\Http\Controllers\Recursos\CodigonepalController;
 use App\Http\Controllers\Recursos\OnlinetutorialController;
 use App\Http\Controllers\Recursos\CodingLabController;
 use App\Http\Controllers\Recursos\BluuwebController;
+use App\Http\Controllers\Recursos\AlexCGController;
+use App\Http\Controllers\Recursos\VariosController;
+
 
 
 /*
@@ -54,6 +57,7 @@ Route::get("/panel3", [OnlinetutorialController::class, 'panel3']);
 Route::get("/panel4", [OnlinetutorialController::class, 'panel4']);
 
 Route::get("/onlinetutorial/ejercicio1", [OnlinetutorialController::class, 'ejercicio1']);
+Route::get("/onlinetutorial/ejercicio2", [OnlinetutorialController::class, 'ejercicio2']);
 
 /*Codigo CodingLab */
 
@@ -69,3 +73,13 @@ Route::get("/bluuweb", [BluuwebController::class, 'bluuweb']);
 
 Route::get("/bluuweb/ejercicio1", [BluuwebController::class, 'ejercicio1']);
 Route::get("/bluuweb/ejercicio2", [BluuwebController::class, 'ejercicio2']);
+
+/*--- AlexCG ----*/
+
+Route::get("/alexCG", [AlexCGController::class, 'alexCG']);
+
+
+/*---- varios ---*/
+Route::get('/varios',[VariosController::class, 'varios']);
+
+Route::get("/varios/ejercicio1", [VariosController::class, 'ejercicio1']);

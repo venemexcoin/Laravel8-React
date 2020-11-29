@@ -42,12 +42,12 @@
             <a href="{{ url('/bluuweb')}}">Bluuweb</a>
           </li>
           <li>
-            <i class="fas fa-phone-volume"></i>
-            <a href="#">Contact</a>
+            <img src="{{asset('assets/img/fromtem/alexCG1.png')}}" class="fromtem-img__nepal">
+            <a href="{{ url('/alexCG')}}">Alex CG Design</a>
           </li>
           <li>
-          <i class="far fa-comments"></i>
-            <a href="#">Feedback</a>
+            <img src="{{asset('assets/img/fromtem/alexCG1.png')}}" class="fromtem-img__nepal">
+            <a href="{{ url('/varios')}}">Varios</a>
           </li>
         </ul>
       </div>

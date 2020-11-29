@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.alex-contenidor {
+    width: 100%;
+    height: 83vh;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.alex-contenidor .alex-header {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.alex-contenidor .alex-sidebar ul {
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.alex-contenidor .alex-sidebar li {
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.alex-contenidor .alex-sidebar a {
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.alex-contenidor .alex-contenido {
+}
+
+.alex-contenidor .alex-contenido > h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.alex-contenidor .alex-footer {
+}
+
+@media (max-width: 900px) {
+    .alex-contenidor .alex-header {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 600;
+        color: #fff;
+    }
+}

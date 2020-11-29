@@ -127,3 +127,27 @@
 #check:checked ~ .sidebar_menu .btn_two i {
     opacity: 1;
 }
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container ul {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+    list-style-type: none;
+    left: 0;
+    padding: 2px;
+    top: 2em;
+}
+
+.dropdown-container span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.dropdown-container:hover ul {
+    max-height: 400px;
+}

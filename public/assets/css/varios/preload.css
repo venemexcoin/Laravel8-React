@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    background: #222;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.preloader {
+    margin: auto;
+    width: 350px;
+    height: 30px;
+    background: rgba(255, 2555, 255, 0.1);
+    position: relative;
+}
+
+.preloader::before {
+    content: '';
+    position: absolute;
+    background: green;
+    width: 0;
+    height: 30px;
+    animation: preloader 10s infinite;
+}
+
+.preloader p {
+    margin: 0;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cerrar {
+    transform: translateY(-100%);
+    transition: all 0.5s;
+}
+
+@keyframes preloader {
+    90% {
+        width: 100%;
+        opacity: 1;
+    }
+    100% {
+        width: 100%;
+        opacity: 0;
+    }
+}

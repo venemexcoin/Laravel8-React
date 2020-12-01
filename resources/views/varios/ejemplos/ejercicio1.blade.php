@@ -18,6 +18,7 @@
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe eveniet tempore sed numquam,
             impedit quibusdam pariatur molestiae labore! Amet magni illo ullam omnis tempora at sapiente
             recusandae nulla, consequuntur quidem.</p>
+            <a href="{{url('/varios')}}" class="retun"><i class="fa fa-home"></i></a>
     </div>
 </body>
 </html>

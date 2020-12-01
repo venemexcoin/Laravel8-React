@@ -83,3 +83,7 @@ Route::get("/alexCG", [AlexCGController::class, 'alexCG']);
 Route::get('/varios',[VariosController::class, 'varios']);
 
 Route::get("/varios/ejercicio1", [VariosController::class, 'ejercicio1']);
+Route::get("/varios/ejercicio2", [VariosController::class, 'ejercicio2']);
+Route::get("/varios/ejercicio3", [VariosController::class, 'ejercicio3']);
+Route::get("/varios/ejercicio4", [VariosController::class, 'ejercicio4']);
+Route::get("/varios/ejercicio5", [VariosController::class, 'ejercicio5']);

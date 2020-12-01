@@ -26,10 +26,10 @@
                 <h1>Mené de Diseños Variados</h1>
                 <ul class="layout3_ul">
                     <li><a href="{{url("/varios/ejercicio1")}}">CSS Card Hover Animation</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
+                    <li><a href="{{url("/varios/ejercicio2")}}">Shining text Animation</a></li>
+                    <li><a href="{{url("/varios/ejercicio3")}}">iOS Progress Bar Amimacion</a></li>
+                    <li><a href="{{url("/varios/ejercicio4")}}">Como Crear un indicador de carga Web</a></li>
+                    <li><a href="{{url("/varios/ejercicio5")}}">Preloader con HTML</a></li>
                     <li><a href="#">6</a></li>
                     <li><a href="#">7</a></li>
                     <li><a href="#">8</a></li>

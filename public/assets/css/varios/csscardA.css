@@ -21,7 +21,7 @@ body {
     padding: 25px 30px;
     border-radius: 25px;
     position: relative;
-    clip-path: circle(5% at 92.5% 12.5%);
+    clip-path: circle(5% at 92.5% 10%);
     transition: all 500ms ease-in-out;
 }
 
@@ -47,4 +47,12 @@ body {
 
 .card:hover .info-btn {
     opacity: 0;
+}
+
+.card .retun i {
+    color: #000;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    text-align: center;
 }

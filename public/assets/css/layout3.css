@@ -39,7 +39,6 @@ body {
     top: 0;
     left: 0;
     display: block;
-    cursor: pointer;
     width: 100px;
     height: 80px;
     background-color: #2e86ab;
@@ -56,22 +55,24 @@ body {
 
 .menu_toggle .menu_open,
 .menu_toggle .menu_close {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     margin-top: -15px;
     margin-left: -12px;
     transition: transform 0.7s cubic-bezier(1, 0.005, 0.25, 1),
-        -webkit-transform 0.7s cubic-bezier(1, 0.005, 0.24, 1);
+        -webkit-transform 0.7s cubic-bezier(1, 0.005, 0.25, 1);
 }
 
 .menu_toggle .menu_open {
-    transform-origin: -100px -100px;
+    transform-origin: -150px -100px;
+    cursor: pointer;
 }
 
 .menu_toggle .menu_close {
     transform: rotate(20deg);
     transform-origin: -100px -160px;
+    cursor: pointer;
 }
 
 .menu_items {
@@ -156,4 +157,13 @@ h1 {
 
 body {
     color: #584e4a;
+}
+
+@media screen and (max-width: 600px) {
+    .content_inner h1 {
+        font-size: 1em;
+    }
+    .content_inner .layout3_ul li a {
+        font-size: 0.8em;
+    }
 }

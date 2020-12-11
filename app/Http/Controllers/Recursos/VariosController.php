@@ -28,4 +28,7 @@ class VariosController extends Controller
     public function ejercicio5() {
         return view('varios.ejemplos.ejercicio5');
     }
+    public function ejercicio6() {
+        return view('varios.ejemplos.ejercicio6');
+    }
 }

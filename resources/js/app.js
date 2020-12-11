@@ -13,4 +13,10 @@ require('./bootstrap');
  */
 
 require('./components/Example');
-require('./components/Main');
+// require('./components/Main');
+require('./components/Prueba');
+require('./components/apis1/TarBtc');
+require('./components/apis1/TarEth');
+require('./components/apis1/TarPesos');
+
+

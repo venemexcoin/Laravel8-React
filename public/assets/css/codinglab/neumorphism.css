@@ -27,6 +27,7 @@ body {
 .side-bar .title {
     display: flex;
     justify-content: space-evenly;
+    justify-content: ;
 }
 
 .side-bar .title .logo {

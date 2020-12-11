@@ -15,6 +15,15 @@
     <h1> Animaciones</h1>
     <div class="linea"></div>
     <div class="contenedor-imagenes">
+        
+        <div class="imagen">
+            <img src="{{ asset('assets/img/galeria/particles.png')}}" alt="">
+            <div class="overlay">
+                <a href="{{url('/onlinetutorial/ejercicio1')}}">Visualizas</a>
+                <h4>Red Social</h4>
+            </div>
+        </div>
+
         <div class="imagen">
             <img src="{{ asset('assets/img/galeria/animated404.png')}}" alt="">
             <div class="overlay">
@@ -23,24 +32,17 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/effect.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{url("/onlinetutorial/ejercicio3")}}">CSS Creative List Item Hover Effects</a>
+                <h4>Listas Con efectos</h4>
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/card3D.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
-            </div>
-        </div>
-        <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
-            <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{url("/onlinetutorial/ejercicio4")}}">3D Flip Debit Card</a>
+                <h4>Tarjeta</h4>
             </div>
         </div>
         <div class="imagen">

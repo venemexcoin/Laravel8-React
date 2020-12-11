@@ -10,16 +10,18 @@
     @yield('styles')
 </head>
 <body>
+
     <div class="page" id="sidebar">
         <span class="menu_toggle">
             <i class="menu_open fa fa-bars lg"></i>
-            <i class="menu_close fa fa-times lg"></i>
+            <i class="menu_close fas fa-times"></i>
         </span>
         <ul class="menu_items">
             <li><a href="{{ url('/')}}">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+       
         
         <main class="content">
             <div class="content_inner">
@@ -30,17 +32,16 @@
                     <li><a href="{{url("/varios/ejercicio3")}}">iOS Progress Bar Amimacion</a></li>
                     <li><a href="{{url("/varios/ejercicio4")}}">Como Crear un indicador de carga Web</a></li>
                     <li><a href="{{url("/varios/ejercicio5")}}">Preloader con HTML</a></li>
-                    <li><a href="#">6</a></li>
+                    <li><a href="{{url("/varios/ejercicio6")}}">Munu Full SCREEN vertical</a></li>
                     <li><a href="#">7</a></li>
                     <li><a href="#">8</a></li>
                     <li><a href="#">9</a></li>
                     <li><a href="#">10</a></li>
                 </ul>
         </main>
-
     </div> 
-        @yield('content')
-    <script src="{{asset('js/app.js')}}"></script>
+        
+    
     <script src="{{asset('assets/js/layout3.js')}}"></script>
     @yield('scripts')
 </body>

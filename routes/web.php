@@ -8,7 +8,7 @@ use App\Http\Controllers\Recursos\CodingLabController;
 use App\Http\Controllers\Recursos\BluuwebController;
 use App\Http\Controllers\Recursos\AlexCGController;
 use App\Http\Controllers\Recursos\VariosController;
-
+use App\Http\Controllers\Recursos\ApiController;
 
 
 /*
@@ -25,11 +25,6 @@ use App\Http\Controllers\Recursos\VariosController;
 Route::get('/', function () {
     return view('/from.index');
 });
-
-Route::get('/api1', function () {
-    return view('/apis.fiatcripto');
-});
-
 
 
 Route::get('/employee', 'App\Http\Controllers\EmployeeController@index');
@@ -58,6 +53,8 @@ Route::get("/panel4", [OnlinetutorialController::class, 'panel4']);
 
 Route::get("/onlinetutorial/ejercicio1", [OnlinetutorialController::class, 'ejercicio1']);
 Route::get("/onlinetutorial/ejercicio2", [OnlinetutorialController::class, 'ejercicio2']);
+Route::get("/onlinetutorial/ejercicio3", [OnlinetutorialController::class, 'ejercicio3']);
+Route::get("/onlinetutorial/ejercicio4", [OnlinetutorialController::class, 'ejercicio4']);
 
 /*Codigo CodingLab */
 
@@ -87,3 +84,12 @@ Route::get("/varios/ejercicio2", [VariosController::class, 'ejercicio2']);
 Route::get("/varios/ejercicio3", [VariosController::class, 'ejercicio3']);
 Route::get("/varios/ejercicio4", [VariosController::class, 'ejercicio4']);
 Route::get("/varios/ejercicio5", [VariosController::class, 'ejercicio5']);
+Route::get("/varios/ejercicio6", [VariosController::class, 'ejercicio6']);
+
+/*----- API -------*/
+Route::get('/api1',[ApiController::class, 'api1']);
+
+/*---  ejercicios  ---*/
+Route::get("/apis/ejercicio1", [ApiController::class, 'ejercicio1']);
+Route::get("/apis/ejercicio2", [ApiController::class, 'ejercicio2']);
+Route::get("/apis/ejercicio3", [ApiController::class, 'ejercicio3']);

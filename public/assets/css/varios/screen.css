@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+div#navigation {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(27, 27, 27);
+}
+
+div#hamburger-content {
+    cursor: pointer;
+}
+
+div#hamburger-content img {
+    width: 30px;
+}
+
+div#menu {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+    transition: top 0.5s;
+}
+
+div#menu nav {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#menu nav ul {
+    list-style: none;
+    display: block;
+}
+
+div#menu nav ul li {
+    margin-top: 100px;
+    opacity: 0;
+    transition: margin-top 0.8s, opacity 0.8s;
+}
+
+div#menu nav ul li a {
+    color: white;
+    font-size: 6em;
+    text-decoration: none;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+}
+
+div#menu nav ul li a:hover {
+    opacity: 1;
+}
+
+div#background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+div.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: none;
+    animation-name: backgroundImageAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+div#close {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+div#close img {
+    width: 30px;
+}
+
+div#menu.open {
+    top: 0;
+}
+
+div#menu.open nav ul li {
+    margin-top: 0;
+    opacity: 1;
+}
+
+.contenedor-pricipal {
+    margin-top: 1px;
+    width: 90%;
+    height: 100vh;
+    padding-left: 7%;
+    padding-right: 2%;
+}
+
+@keyframes backgroundImageAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div#menu nav ul li a {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    div#menu nav {
+        top: 30%;
+    }
+    div#menu nav ul li a {
+        font-size: 2.5em;
+    }
+}

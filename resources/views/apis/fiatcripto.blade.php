@@ -62,14 +62,14 @@
  <div class="card">
     <div class="face face1">
       <div class="content">
-         <i class="fab fa-windows"></i>            
-        <h3>Windows</h3>
+        <i class="fas fa-dollar-sign"></i>             
+        <h3>Dolar</h3>
       </div>
     </div>
     <div class="face face2">
       <div class="content">
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <a href="#" type="button">Read More</a>
+        <a href="{{url('/apis/ejercicio4')}}" type="button">Read More</a>
       </div>
     </div>
  </div>

@@ -21,4 +21,7 @@ class ApiController extends Controller
     public function ejercicio3() {
         return view('apis.ejemplos.ejercicio3');
     }
+    public function ejercicio4() {
+        return view('apis.ejemplos.ejercicio4');
+    }
 }

@@ -93,3 +93,4 @@ Route::get('/api1',[ApiController::class, 'api1']);
 Route::get("/apis/ejercicio1", [ApiController::class, 'ejercicio1']);
 Route::get("/apis/ejercicio2", [ApiController::class, 'ejercicio2']);
 Route::get("/apis/ejercicio3", [ApiController::class, 'ejercicio3']);
+Route::get("/apis/ejercicio4", [ApiController::class, 'ejercicio4']);

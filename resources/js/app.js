@@ -18,5 +18,6 @@ require('./components/Prueba');
 require('./components/apis1/TarBtc');
 require('./components/apis1/TarEth');
 require('./components/apis1/TarPesos');
+require('./components/apis1/TarDolar');
 
 

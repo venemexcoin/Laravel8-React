@@ -6341,9 +6341,10 @@ module.exports = {
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap);", ""]);
 
 // module
-exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container-btc {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container-btc .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(240, 105, 105, 0.669);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-btc .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(80, 255, 176, 0.546);\r\n}\r\n\r\n.container-btc .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n.container-btc .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-btc .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-btc .container-divi .container-item p {\r\n    font-size: 40px;\r\n    font-weight: 600;\r\n}\r\n", ""]);
+exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container-title {\r\n    margin-top: 50px;\r\n    font-family: 'Bungee Outline', cursive;\r\n}\r\n\r\n.container-title .title-btc {\r\n    text-align: center;\r\n    color: rgba(240, 105, 105, 0.669);\r\n}\r\n\r\n.container-title .title-btc:hover {\r\n    font-family: 'Bungee Outline', cursive;\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-btc {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container-btc .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(240, 105, 105, 0.669);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-btc .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(80, 255, 176, 0.546);\r\n}\r\n\r\n.container-btc .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n.container-btc .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-btc .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-btc .container-divi .container-item p {\r\n    font-size: 40px;\r\n    font-weight: 600;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6360,9 +6361,10 @@ exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-siz
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap);", ""]);
 
 // module
-exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container-dolar {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container-dolar .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(80, 255, 147, 0.546);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-dolar .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(253, 43, 43, 0.498);\r\n}\r\n\r\n.container-dolar .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n.container-dolar .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-dolar .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-dolar .container-divi .container-item p {\r\n    font-size: 30px;\r\n    font-weight: 600;\r\n}\r\n", ""]);
+exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container-title {\r\n    margin-top: 50px;\r\n    font-family: 'Bungee Outline', cursive;\r\n}\r\n\r\n.container-title .title-dolar {\r\n    text-align: center;\r\n    color: rgba(80, 255, 147, 0.546);\r\n}\r\n\r\n.container-title .title-dolar:hover {\r\n    font-family: 'Bungee Outline', cursive;\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-dolar {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container-dolar .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(80, 255, 147, 0.546);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-dolar .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(253, 43, 43, 0.498);\r\n}\r\n\r\n.container-dolar .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n.container-dolar .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-dolar .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-dolar .container-divi .container-item p {\r\n    font-size: 30px;\r\n    font-weight: 600;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6379,9 +6381,10 @@ exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-siz
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap);", ""]);
 
 // module
-exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container-eth {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container-eth .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(92, 80, 255, 0.546);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-eth .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(255, 208, 80, 0.546);\r\n}\r\n\r\n.container-eth .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n.container-eth .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-eth .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-eth .container-divi .container-item p {\r\n    font-size: 40px;\r\n    font-weight: 600;\r\n}\r\n\r\n.container-eth {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n}\r\n\r\n.container-eth .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(92, 80, 255, 0.546);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-eth .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(255, 208, 80, 0.546);\r\n}\r\n\r\n.container-eth .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n.container-eth .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-eth .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-eth .container-divi .container-item p {\r\n    font-size: 40px;\r\n    font-weight: 600;\r\n}\r\n", ""]);
+exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container-title {\r\n    margin-top: 50px;\r\n    font-family: 'Bungee Outline', cursive;\r\n}\r\n\r\n.container-title .title-eth {\r\n    text-align: center;\r\n    color: rgba(92, 80, 255, 0.546);\r\n}\r\n\r\n.container-title .title-eth:hover {\r\n    font-family: 'Bungee Outline', cursive;\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-eth {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container-eth .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(92, 80, 255, 0.546);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-eth .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(255, 208, 80, 0.546);\r\n}\r\n\r\n.container-eth .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n.container-eth .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-eth .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-eth .container-divi .container-item p {\r\n    font-size: 40px;\r\n    font-weight: 600;\r\n}\r\n\r\n.container-eth {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n}\r\n\r\n.container-eth .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(92, 80, 255, 0.546);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-eth .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(255, 208, 80, 0.546);\r\n}\r\n\r\n.container-eth .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n.container-eth .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-eth .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-eth .container-divi .container-item p {\r\n    font-size: 40px;\r\n    font-weight: 600;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6398,9 +6401,10 @@ exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-siz
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap);", ""]);
 
 // module
-exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container-pesos {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container-pesos .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(17, 224, 224, 0.546);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-pesos .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(80, 80, 255, 0.546);\r\n}\r\n\r\n.container-pesos .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n\r\n.container-pesos .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-pesos .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-pesos .container-divi .container-item p {\r\n    font-size: 35px;\r\n    font-weight: 600;\r\n}\r\n", ""]);
+exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container-title {\r\n    margin-top: 50px;\r\n    font-family: 'Bungee Outline', cursive;\r\n}\r\n\r\n.container-title .title-peso {\r\n    text-align: center;\r\n    color: rgba(17, 224, 224, 0.902);\r\n}\r\n\r\n.container-title .title-peso:hover {\r\n    font-family: 'Bungee Outline', cursive;\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-pesos {\r\n    width: 90%;\r\n    max-width: 1000px;\r\n    text-align: center;\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    grid-gap: 20px;\r\n    margin-top: 100px;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container-pesos .container-divi {\r\n    width: 258px;\r\n    height: 200px;\r\n    background: rgba(17, 224, 224, 0.546);\r\n    border-radius: 10px;\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);\r\n    transition: all 0.5s ease-in-out;\r\n}\r\n\r\n.container-pesos .container-divi:hover {\r\n    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);\r\n    background: rgba(80, 80, 255, 0.546);\r\n}\r\n\r\n.container-pesos .container-divi p {\r\n    font-size: 30px;\r\n    letter-spacing: 2px;\r\n}\r\n\r\n.container-pesos .container-divi i {\r\n    color: rgb(192, 190, 190);\r\n}\r\n\r\n.container-pesos .container-divi .container-item {\r\n    margin-top: 30px;\r\n}\r\n\r\n.container-pesos .container-divi .container-item p {\r\n    font-size: 35px;\r\n    font-weight: 600;\r\n}\r\n", ""]);
 
 // exports
 
@@ -67465,7 +67469,11 @@ var TarBtc = function TarBtc() {
     }, 60000);
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "container-title"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "title-btc"
+  }, "Base de trabajo un BTC")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-btc"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-divi"
@@ -67491,7 +67499,7 @@ var TarBtc = function TarBtc() {
     className: "fas fa-dollar-sign"
   }, " Pesos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, cotizacion.MXN))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, cotizacion.MXN)))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TarBtc);
@@ -67592,7 +67600,11 @@ var TarDolar = function TarDolar() {
     }, 60000);
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "container-title"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "title-dolar"
+  }, "Base de trabajo un Dolar")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-dolar"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-divi"
@@ -67618,7 +67630,7 @@ var TarDolar = function TarDolar() {
     className: "fas fa-dollar-sign"
   }, " Pesos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, cotizacion.MXN))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, cotizacion.MXN)))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TarDolar);
@@ -67719,7 +67731,11 @@ var TarEth = function TarEth() {
     }, 60000);
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "container-title"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "title-eth"
+  }, "Base de trabajo un ETH")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-eth"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-divi"
@@ -67745,7 +67761,7 @@ var TarEth = function TarEth() {
     className: "fas fa-dollar-sign"
   }, " Pesos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, cotizacion.MXN))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, cotizacion.MXN)))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TarEth);
@@ -67846,7 +67862,11 @@ var TarPesos = function TarPesos() {
     }, 60000);
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "container-title"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "title-peso"
+  }, "Base de trabajo un Peso M\xE9xicano")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-pesos"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-divi"
@@ -67872,7 +67892,7 @@ var TarPesos = function TarPesos() {
     className: "fas fa-dollar-sign"
   }, " Dolar"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container-item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, cotizacion.USD))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, cotizacion.USD)))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TarPesos);

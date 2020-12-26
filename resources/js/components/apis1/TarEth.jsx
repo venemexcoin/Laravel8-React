@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from 'react'
+import React, {useState, useEffect, Fragment } from 'react'
 import ReactDOM from 'react-dom'
 import './css/tareth.css'
 
@@ -29,6 +29,13 @@ const TarEth = () => {
     }
 
     return (
+        <Fragment>
+            
+             <div className="container-title">                   
+                     <h1 className="title-eth">
+                         Base de trabajo un ETH
+                     </h1>
+             </div>
         <div className="container-eth">
             <div className="container-divi">
                 <div className="title">
@@ -55,6 +62,8 @@ const TarEth = () => {
                 </div>
             </div>
         </div>
+
+        </Fragment>
     )
 }
 

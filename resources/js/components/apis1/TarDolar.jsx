@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, Fragment} from 'react'
 import ReactDOM from 'react-dom'
 import './css/tardolar.css'
 
@@ -29,6 +29,13 @@ const TarDolar = () => {
     }
 
     return (
+        <Fragment>
+            <div className="container-title">                   
+                     <h1 className="title-dolar">
+                         Base de trabajo un Dolar
+                     </h1>
+             </div>
+
         <div className="container-dolar">
         <div className="container-divi">
             <div className="title">
@@ -55,6 +62,7 @@ const TarDolar = () => {
             </div>
         </div>
     </div>
+        </Fragment>
     )
 }
 

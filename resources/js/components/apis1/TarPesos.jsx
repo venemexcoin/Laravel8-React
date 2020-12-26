@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, Fragment} from 'react'
 import ReactDOM from 'react-dom'
 import './css/tarpesos.css'
 
@@ -30,6 +30,13 @@ const TarPesos = () => {
     }
 
     return (
+        <Fragment>
+             <div className="container-title">                   
+                     <h1 className="title-peso">
+                         Base de trabajo un Peso Méxicano
+                     </h1>
+             </div>
+
         <div className="container-pesos">
             <div className="container-divi">
                 <div className="title">
@@ -56,6 +63,7 @@ const TarPesos = () => {
                 </div>
             </div>
         </div>
+        </Fragment>
     )
 }
 

@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layout6')
 
 @section('title_base')
     Api Panel

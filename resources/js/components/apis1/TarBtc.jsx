@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react'
+import React, {useState,useEffect, Fragment} from 'react'
 import ReactDOM from 'react-dom';
 import './css/tarbtc.css'
 
@@ -30,6 +30,12 @@ const TarBtc = () => {
     }
 
     return (
+         <Fragment> 
+             <div className="container-title">                   
+                     <h1 className="title-btc">
+                         Base de trabajo un BTC
+                     </h1>
+             </div>
         <div className="container-btc">
             <div className="container-divi">
                 <div className="title">
@@ -56,6 +62,7 @@ const TarBtc = () => {
                 </div>
             </div>
         </div>
+        </Fragment>
     )
 }
 

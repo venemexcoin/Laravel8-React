@@ -60,6 +60,7 @@ Route::get("/onlinetutorial/ejercicio4", [OnlinetutorialController::class, 'ejer
 
 Route::get("/codinglab", [CodingLabController::class, 'codinglab']);
 Route::get("/panelcodelab", [CodingLabController::class, 'panelcodelab']);
+Route::get("/panelcodelab1", [CodingLabController::class, 'panelcodelab1']);
 
 Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);
 

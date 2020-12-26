@@ -1,7 +1,7 @@
-@extends('layouts.layout')
+@extends('layouts.layout5')
 
 @section('title_base')
-    Menu
+    Animacines
 @endsection
 
 @section('style')
@@ -16,9 +16,9 @@
     <div class="linea"></div>
     <div class="contenedor-imagenes">
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/5.jpg')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
             <div class="overlay">
-                <a href="{{url('/codinglab/ejercicio1')}}">Visualizas</a>
+                <a href="#">Visualizas</a>
                 <h4>Boton</h4>
             </div>
         </div>

@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container-title {
+    margin-top: 50px;
+    font-family: 'Bungee Outline', cursive;
+}
+
+.container-title .title-eth {
+    text-align: center;
+    color: rgba(92, 80, 255, 0.546);
+}
+
+.container-title .title-eth:hover {
+    font-family: 'Bungee Outline', cursive;
+    color: rgb(192, 190, 190);
 }
 
 .container-eth {

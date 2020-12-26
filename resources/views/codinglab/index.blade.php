@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layout5')
 
 @section('title_base')
     CodingLab
@@ -37,6 +37,12 @@
         </div>
         
     </div>
+    <div class="online-card">
+        <a href="{{ url('panelcodelab1')}}" class="online-card__body"><span class="online-card__title">Animaciones </span></a>
+        <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
+            <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p>
+    </div>
+</div>
 </div>
 
 <div class="contenedor">

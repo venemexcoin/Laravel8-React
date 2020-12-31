@@ -33,7 +33,7 @@
                     <li><a href="{{url("/varios/ejercicio4")}}">Como Crear un indicador de carga Web</a></li>
                     <li><a href="{{url("/varios/ejercicio5")}}">Preloader con HTML</a></li>
                     <li><a href="{{url("/varios/ejercicio6")}}">Munu Full SCREEN vertical</a></li>
-                    <li><a href="#">7</a></li>
+                    <li><a href="{{url("/varios/ejercicio7")}}">Base de datos Clientes</a></li>
                     <li><a href="#">8</a></li>
                     <li><a href="#">9</a></li>
                     <li><a href="#">10</a></li>

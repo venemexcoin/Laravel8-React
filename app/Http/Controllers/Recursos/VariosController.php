@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Recursos;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Cliente;
 
 class VariosController extends Controller
 {
@@ -30,5 +31,10 @@ class VariosController extends Controller
     }
     public function ejercicio6() {
         return view('varios.ejemplos.ejercicio6');
+    }
+    public function ejercicio7() {
+
+        $clients = Cliente::all();
+        return view('varios.ejemplos.ejercicio7', compact('clients'));
     }
 }

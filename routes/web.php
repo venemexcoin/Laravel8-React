@@ -9,6 +9,7 @@ use App\Http\Controllers\Recursos\BluuwebController;
 use App\Http\Controllers\Recursos\AlexCGController;
 use App\Http\Controllers\Recursos\VariosController;
 use App\Http\Controllers\Recursos\ApiController;
+use App\Http\Controllers\Service\ClienteController;
 
 
 /*
@@ -86,6 +87,7 @@ Route::get("/varios/ejercicio3", [VariosController::class, 'ejercicio3']);
 Route::get("/varios/ejercicio4", [VariosController::class, 'ejercicio4']);
 Route::get("/varios/ejercicio5", [VariosController::class, 'ejercicio5']);
 Route::get("/varios/ejercicio6", [VariosController::class, 'ejercicio6']);
+Route::get("/varios/ejercicio7", [VariosController::class, 'ejercicio7'])->name('cliente_path');
 
 /*----- API -------*/
 Route::get('/api1',[ApiController::class, 'api1']);
@@ -95,3 +97,10 @@ Route::get("/apis/ejercicio1", [ApiController::class, 'ejercicio1']);
 Route::get("/apis/ejercicio2", [ApiController::class, 'ejercicio2']);
 Route::get("/apis/ejercicio3", [ApiController::class, 'ejercicio3']);
 Route::get("/apis/ejercicio4", [ApiController::class, 'ejercicio4']);
+
+
+/*---- controlador de cliente -----*/
+
+Route::get("/client/create", [ClienteController::class, 'create'])->name('cliente.create');
+
+Route::post("/client/create", [ClienteController::class, 'storeClient'])->name('clien.store');

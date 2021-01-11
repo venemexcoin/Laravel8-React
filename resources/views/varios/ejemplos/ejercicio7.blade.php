@@ -27,7 +27,7 @@
                 </thead>
                 <tbody>
                     @foreach ($clients as $client)
-                    <tr class="clien_table__item">
+                    <tr class="clien_table__item">            
                       <td><span id="estado" class="estado_0">{{$client->estado}}</span></td>
                       <td>{{$client->alias}}</td>
                       <td>{{$client->imei}}</td>
@@ -43,4 +43,10 @@
 
 
 
+@endsection
+
+@section('script')
+ <script>
+
+ </script>
 @endsection

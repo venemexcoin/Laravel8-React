@@ -46,10 +46,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/perpetual.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{url("/onlinetutorial/ejercicio6")}}">Pure CSS Perpetual Animation</a>
+                <h4>Animation</h4>
             </div>
         </div>
         <div class="imagen">

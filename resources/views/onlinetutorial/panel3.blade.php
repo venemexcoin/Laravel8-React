@@ -60,10 +60,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/loading.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{url("/onlinetutorial/ejercicio8")}}">Loading1</a>
+                <h4>Animate</h4>
             </div>
         </div>
         <div class="imagen">

@@ -16,9 +16,9 @@
     <div class="linea"></div>
     <div class="contenedor-imagenes">
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/scrollToSeeMagic.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
+                <a href="{{ url('/onlinetutorial/ejercicio10')}}">CSS3 transform </a>
                 <h4>Boton</h4>
             </div>
         </div>

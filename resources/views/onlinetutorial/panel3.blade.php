@@ -67,17 +67,17 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/flying.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Servicio Unlock</a>
-                <h4>Red Social</h4>
+                <a href="{{url("/onlinetutorial/ejercicio11")}}">Fiying Text Animation</a>
+                <h4>Animaciones</h4>
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/Animation.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{url("/onlinetutorial/ejercicio12")}}">Create AnimeJS</a>
+                <h4>Animaciones</h4>
             </div>
         </div>
         <!-- <div class="imagen">

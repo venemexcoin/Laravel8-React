@@ -62,6 +62,8 @@ Route::get("/onlinetutorial/ejercicio7", [OnlinetutorialController::class, 'ejer
 Route::get("/onlinetutorial/ejercicio8", [OnlinetutorialController::class, 'ejercicio8']);
 Route::get("/onlinetutorial/ejercicio9", [OnlinetutorialController::class, 'ejercicio9']);
 Route::get("/onlinetutorial/ejercicio10", [OnlinetutorialController::class, 'ejercicio10']);
+Route::get("/onlinetutorial/ejercicio11", [OnlinetutorialController::class, 'ejercicio11']);
+Route::get("/onlinetutorial/ejercicio12", [OnlinetutorialController::class, 'ejercicio12']);
 /*Codigo CodingLab */
 
 Route::get("/codinglab", [CodingLabController::class, 'codinglab']);

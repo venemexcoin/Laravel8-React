@@ -24,4 +24,7 @@ class CodingLabController extends Controller
     public function ejercicio1() {
         return view('codinglab.ejemplos.ejercicio1');
     }
+    public function ejercicio2() {
+        return view('codinglab.ejemplos.ejercicio2');
+    }
 }

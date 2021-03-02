@@ -16,10 +16,10 @@
     <div class="linea"></div>
     <div class="contenedor-imagenes">
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/withScroll.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Boton</h4>
+                <a href="{{url('/codinglab/ejercicio2')}}">Navigation</a>
+                <h4>NavBar</h4>
             </div>
         </div>
         <div class="imagen">

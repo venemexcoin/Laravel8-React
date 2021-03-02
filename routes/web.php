@@ -72,6 +72,7 @@ Route::get("/panelcodelab", [CodingLabController::class, 'panelcodelab']);
 Route::get("/panelcodelab1", [CodingLabController::class, 'panelcodelab1']);
 
 Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);
+Route::get("/codinglab/ejercicio2", [CodingLabController::class, 'ejercicio2']);
 
 
 /*--- Bluuweb ----*/

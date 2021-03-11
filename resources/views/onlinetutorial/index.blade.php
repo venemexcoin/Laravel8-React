@@ -16,7 +16,7 @@
 <div class="online-asside">
     <div class="online-card">
     <a href="{{ url('panel')}}" class="online-card__body">
-        <span class="online-card__title">Sección de Botones, animados y sencillos (2)</span></a>
+        <span class="online-card__title">Sección de Botones, animados y sencillos (3)</span></a>
         <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span> </br>
           <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p> 
         </div>
@@ -30,7 +30,7 @@
         
     </div>
     <div class="online-card">
-        <a href="{{ url('panel2')}}" class="online-card__body"><span class="online-card__title">Sección de formularios y login</span></a>
+        <a href="{{ url('panel2')}}" class="online-card__body"><span class="online-card__title">Sección de formularios y login (2)</span></a>
         <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
             <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p>
         </div>
@@ -45,7 +45,7 @@
 </div>
 
 <div class="online-card">
-    <a href="{{ url('panel4')}}" class="online-card__body"><span class="online-card__title">Menus y Footer  </span></a>
+    <a href="{{ url('panel4')}}" class="online-card__body"><span class="online-card__title">Menus y Footer(1)</span></a>
     <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
         <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p>
 </div>

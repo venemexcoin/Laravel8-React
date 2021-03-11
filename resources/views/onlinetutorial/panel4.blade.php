@@ -16,10 +16,10 @@
     <div class="linea"></div>
     <div class="contenedor-imagenes">
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/Navnar1.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Login</h4>
+                <a href="{{ url('/onlinetutorial/ejercicio15')}}">Navigation Drawer</a>
+                <h4>NavBAr</h4>
             </div>
         </div>
         <div class="imagen">

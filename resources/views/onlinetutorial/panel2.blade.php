@@ -16,17 +16,17 @@
     <div class="linea"></div>
     <div class="contenedor-imagenes">
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/LoginAnimado.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
+                <a href="{{ url('/onlinetutorial/ejercicio16')}}">AnimacionLogin</a>
                 <h4>Login</h4>
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/LoginAnimado1.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{ url('/onlinetutorial/ejercicio17')}}">Popup Login Form</a>
+                <h4>Login</h4>
             </div>
         </div>
         <div class="imagen">

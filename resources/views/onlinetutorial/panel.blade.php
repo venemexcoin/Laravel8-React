@@ -30,10 +30,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/ButtonHover.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{ url('/onlinetutorial/ejercicio14')}}">Button Hover</a>
+                <h4>Button Animacion</h4>
             </div>
         </div>
         <div class="imagen">

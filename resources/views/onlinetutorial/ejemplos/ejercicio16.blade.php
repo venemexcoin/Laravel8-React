@@ -35,12 +35,15 @@
 
                         <div class="formulario_grupo formulario_grupo-btn-enviar">
                         <input type="submit" value="login" />
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
                         </div>
 
-                        <!-- mensaje de Error rellenar campos -->
-                        <div class="formulario__mensaje" id="formulario__mensaje">
+                         <!-- mensaje de Error rellenar campos -->
+                         <div class="formulario__mensaje" id="formulario__input-error">
                             <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
                         </div>
+
+                         
 
                         <p class="signup">don't have an account? <a href="#" onclick="toggleForm();">Sign up.</a></p> 
                     </form>
@@ -66,23 +69,34 @@
 
                         <!-- validación password -->
                         <div class="grupo_passRed" id="grupo_passRed">
-                        <input type="password" placeholder="Create Password" name="regpass" class="formulario__input">
+                        <input type="password" placeholder="Create Password" name="regpass" class="formulario__input" id="password1">
                         <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos</p>
                         </div> 
                         
                         
                         <!-- validación password confirmacion -->
                         <div class="grupo_passRed2" id="grupo_passRed2">
-                        <input type="password" placeholder="Confirm Password" name="regpass2" class="formulario__input">
+                        <input type="password" placeholder="Confirm Password" name="regpass2" class="formulario__input" id="password2">
                         <p class="formulario__input-error">Ambas Contraseñas deben ser iguales.</p>
                         </div>    
 
+
+                       
                         <input type="submit" value="Sign Up" />
+                          <!-- mensaje de exito rellenar campos -->
+                          <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+                          <!-- mensaje de exito rellenar campos -->
+                          <p class="formulario__mensaje-exito" id="formulario__mensaje-exito2">Formulario enviado exitosamente!</p>
 
                          <!-- mensaje de Error rellenar campos -->
-                         <div class="formulario__mensaje" id="formulario__mensaje">
+                         <div class="formulario__mensaje" id="formulario__input-error">
                             <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
                         </div>
+                        <!-- mensaje de Error rellenar campos -->
+                        <div class="formulario__mensaje" id="formulario__input-error2">
+                            <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                        </div>
+                       
 
 
                         <p class="signup">Already have an account? <a href="#" onclick="toggleForm();">Sign in.</a></p> 

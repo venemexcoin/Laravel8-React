@@ -99,6 +99,7 @@ section .container .formBx .formulario__input:focus {
 section .container .user .formBx input[type='submit'] {
     max-width: 100px;
     background: #677eff;
+    padding: 10px;
     color: #fff;
     cursor: pointer;
     font-size: 14px;
@@ -189,4 +190,21 @@ section .container .formulario__mensaje {
     color: #fff;
     padding: 10px;
     display: none;
+}
+
+section .container .formulario__mensaje-active {
+    display: block;
+}
+
+section .container .formulario__mensaje-exito {
+    font-size: 10px;
+    background: #119200;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    display: none;
+}
+
+section .container .formulario__mensaje-exito-active {
+    display: block;
 }

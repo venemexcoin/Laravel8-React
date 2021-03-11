@@ -18,6 +18,14 @@ const expresiones = {
     telefono: /^\d{7,14}$/ // 7 a 14 numeros.
 }
 
+const campos = {
+    usuario: false,
+    password: false,
+    usuarioRed: false,
+    emailRed:   false,
+    passRed:    false
+}
+
 
 
 /* validacion del formulario de register */
@@ -38,9 +46,10 @@ const validarFormReg = (e) => {
         break
         case "regpass":
             validarCampos(expresiones.password, e.target, 'passRed')
+            validarPassword2()
         break
         case "regpass2":
-        
+                validarPassword2()
         break
     }
 }
@@ -51,10 +60,15 @@ const validarCampos = (expresion, input, campo) => {
 
         document.querySelector(`#grupo_${campo} .formulario__input-error`).classList.remove('formulario__input-error-active')
         document.querySelector(`#grupo_${campo} .formulario__input`).classList.remove('formulario__input-active')
-       
+       campos[campo] = true
      }else {
          document.querySelector(`#grupo_${campo} .formulario__input-error`).classList.add('formulario__input-error-active')
-         document.querySelector(`#grupo_${campo} .formulario__input`).classList.add('formulario__input-active')  
+         document.querySelector(`#grupo_${campo} .formulario__input`).classList.add('formulario__input-active') 
+         setTimeout(() => {
+            document.querySelector(`#grupo_${campo} .formulario__input-error`).classList.remove('formulario__input-error-active')
+            document.querySelector(`#grupo_${campo} .formulario__input`).classList.remove('formulario__input-active')
+         },5000)
+         campos[campo] = false 
      }
 }
 
@@ -70,7 +84,40 @@ inputs1.forEach((input) => {
 
 formularioRes.addEventListener('submit', (e) => {
     e.preventDefault()
+
+    if(campos.usuarioRed && campos.emailRed && campos.passRed){
+        formularioRes.reset()
+
+        document.getElementById('formulario__mensaje-exito2').classList.add('formulario__mensaje-exito-active')  
+         setTimeout(() => {
+            document.getElementById('formulario__mensaje-exito2').classList.remove('formulario__mensaje-exito-active')
+         },3000)
+         resetear()
+         
+    }else{
+        document.getElementById('formulario__input-error2').classList.add('formulario__mensaje-active')
+        setTimeout(() => {
+            document.getElementById('formulario__input-error2').classList.remove('formulario__mensaje-active')
+            formularioRes.reset()
+         },3000)
+        
+    }
 })
+
+const validarPassword2 = () => {
+    const inputPassword1 = document.getElementById('password1')
+    const inputPassword2 = document.getElementById('password2')
+
+    if(inputPassword1.value !== inputPassword2.value){
+
+        document.querySelector(`#grupo_passRed2 .formulario__input-error`).classList.add('formulario__input-error-active')
+        campos['password'] = true
+    }else {
+
+        document.querySelector(`#grupo_passRed2 .formulario__input-error`).classList.remove('formulario__input-error-active')
+        campos['password'] = false
+    }
+}
 
 /* validacion de formulario de login */
 inputs.forEach((input) => {
@@ -83,4 +130,31 @@ inputs.forEach((input) => {
 
 formularioLogin.addEventListener('submit', (e) => {
     e.preventDefault()
+    if(campos.usuario && campos.password){
+        formularioLogin.reset()
+
+        document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-active')
+        setTimeout(() => {
+            document.getElementById('formulario__mensaje-exito').classList.remove('formulario__mensaje-exito-active')
+         },3000)
+         resetear()
+    } else{
+        document.getElementById('formulario__input-error').classList.add('formulario__mensaje-active')
+        setTimeout(() => {
+            document.getElementById('formulario__input-error').classList.remove('formulario__mensaje-active')
+            formularioLogin.reset()
+         },3000)
+         
+    }
 })
+
+const resetear = () => {
+
+    
+    campos['usuario']    = false,
+    campos['password']   = false,
+    campos['usuarioRed'] = false,
+    campos['emailRed']   = false,
+    campos['passRed']    = false
+    
+}

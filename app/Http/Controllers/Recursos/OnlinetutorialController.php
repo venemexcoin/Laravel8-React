@@ -87,4 +87,7 @@ class OnlinetutorialController extends Controller
     public function ejercicio17() {
         return view('onlinetutorial.ejemplos.ejercicio17');
     }
+    public function ejercicio18() {
+        return view('onlinetutorial.ejemplos.ejercicio18');
+    }
 }

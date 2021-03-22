@@ -16,7 +16,7 @@
 <div class="online-asside">
     <div class="online-card">
     <a href="{{ url('panel')}}" class="online-card__body">
-        <span class="online-card__title">Sección de Botones, animados y sencillos (4)</span></a>
+        <span class="online-card__title">Sección de Botones, animados y sencillos (5)</span></a>
         <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span> </br>
           <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p> 
         </div>

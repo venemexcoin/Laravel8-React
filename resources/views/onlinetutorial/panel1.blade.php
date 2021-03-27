@@ -30,9 +30,9 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/navegacion.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
+                <a href="{{ url('/onlineTutorial/livetrack')}}">Rutas de Navigacion</a>
                 <h4>Red Social</h4>
             </div>
         </div>

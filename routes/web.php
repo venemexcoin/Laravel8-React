@@ -11,6 +11,8 @@ use App\Http\Controllers\Recursos\VariosController;
 use App\Http\Controllers\Recursos\ApiController;
 use App\Http\Controllers\Service\ClienteController;
 
+use App\Http\Livewire\OnlineTutorial\LiveTrackComponent;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -71,6 +73,9 @@ Route::get("/onlinetutorial/ejercicio16", [OnlinetutorialController::class, 'eje
 Route::get("/onlinetutorial/ejercicio17", [OnlinetutorialController::class, 'ejercicio17']);
 Route::get("/onlinetutorial/ejercicio18", [OnlinetutorialController::class, 'ejercicio18']);
 Route::get("/onlinetutorial/ejercicio19", [OnlinetutorialController::class, 'ejercicio19']);
+/* Nueva configuracion */
+Route::get("/onlineTutorial/livetrack", LiveTrackComponent::class)->name('online.livetrack'); 
+
 /*Codigo CodingLab */
 
 Route::get("/codinglab", [CodingLabController::class, 'codinglab']);

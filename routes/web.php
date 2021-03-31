@@ -12,6 +12,8 @@ use App\Http\Controllers\Recursos\ApiController;
 use App\Http\Controllers\Service\ClienteController;
 
 use App\Http\Livewire\OnlineTutorial\LiveTrackComponent;
+use App\Http\Livewire\OnlineTutorial\Css3DComponent;
+use App\Http\Livewire\OnlineTutorial\DarkmodoComponent;
 
 
 /*
@@ -74,7 +76,10 @@ Route::get("/onlinetutorial/ejercicio17", [OnlinetutorialController::class, 'eje
 Route::get("/onlinetutorial/ejercicio18", [OnlinetutorialController::class, 'ejercicio18']);
 Route::get("/onlinetutorial/ejercicio19", [OnlinetutorialController::class, 'ejercicio19']);
 /* Nueva configuracion */
-Route::get("/onlineTutorial/livetrack", LiveTrackComponent::class)->name('online.livetrack'); 
+Route::get("/onlineTutorial/livetrack", LiveTrackComponent::class)->name('online.livetrack');
+Route::get("/onlineTutorial/Css3D", Css3DComponent::class)->name('online.css3d');
+Route::get("/onlineTutorial/darkmodo", DarkmodoComponent::class)->name('online.darkmodo');
+ 
 
 /*Codigo CodingLab */
 

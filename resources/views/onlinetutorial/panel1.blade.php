@@ -37,17 +37,17 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/css3d.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{ url('/onlineTutorial/Css3D')}}">CSS 3D Text Animate</a>
+                <h4>Animacion</h4>
             </div>
         </div>
         <div class="imagen">
             <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{ url('/onlineTutorial/darkmodo')}}">Dark Theme Website</a>
+                <h4>Complit</h4>
             </div>
         </div>
         <div class="imagen">

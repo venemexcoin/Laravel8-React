@@ -19,6 +19,16 @@ class CodingLabController extends Controller
         return view('codinglab.panelcodelab1');
     }
 
+    public function panelcodelab2() {
+        return view('codinglab.panelcodelab2');
+    }
+
+    public function panelcodelab3() {
+        return view('codinglab.panelcodelab3');
+    }
+
+
+    
 
 
     public function ejercicio1() {

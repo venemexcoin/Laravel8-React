@@ -16,7 +16,7 @@
 
 <div class="online-asside">
     <div class="online-card">
-    <a href="{{ url('panelcodelab')}}" class="online-card__body">
+    <a href="{{ route('codelab.uno')}}" class="online-card__body">
         <span class="online-card__title">Menu o cabeseras(1)</span></a>
         <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span> </br>
           <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p> 
@@ -38,7 +38,7 @@
         
     </div>
     <div class="online-card">
-        <a href="{{ url('panelcodelab1')}}" class="online-card__body"><span class="online-card__title">Animaciones </span></a>
+        <a href="{{ url('panelcodelab3')}}" class="online-card__body"><span class="online-card__title">Animaciones (2)</span></a>
         <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
             <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p>
     </div>

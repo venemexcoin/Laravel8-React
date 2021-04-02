@@ -44,9 +44,9 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/Menutoggle.png')}}" alt="">
             <div class="overlay">
-                <a href="{{ url('/onlinetutorial/ejercicio19')}}">Realistic </a>
+                <a href="{{ url('/onlineTutorial/menutoggle')}}">Menu Tooggle Icon </a>
                 <h4>Animacion</h4>
             </div>
         </div>

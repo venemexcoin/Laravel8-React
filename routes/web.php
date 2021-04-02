@@ -14,6 +14,10 @@ use App\Http\Controllers\Service\ClienteController;
 use App\Http\Livewire\OnlineTutorial\LiveTrackComponent;
 use App\Http\Livewire\OnlineTutorial\Css3DComponent;
 use App\Http\Livewire\OnlineTutorial\DarkmodoComponent;
+use App\Http\Livewire\OnlineTutorial\MenutoggleComponent;
+
+
+use App\Http\Livewire\Codinglab\WorkingComponent;
 
 
 /*
@@ -79,16 +83,20 @@ Route::get("/onlinetutorial/ejercicio19", [OnlinetutorialController::class, 'eje
 Route::get("/onlineTutorial/livetrack", LiveTrackComponent::class)->name('online.livetrack');
 Route::get("/onlineTutorial/Css3D", Css3DComponent::class)->name('online.css3d');
 Route::get("/onlineTutorial/darkmodo", DarkmodoComponent::class)->name('online.darkmodo');
+Route::get("/onlineTutorial/menutoggle", MenutoggleComponent::class)->name('online.menutoggle');
  
 
 /*Codigo CodingLab */
 
 Route::get("/codinglab", [CodingLabController::class, 'codinglab']);
-Route::get("/panelcodelab", [CodingLabController::class, 'panelcodelab']);
+Route::get("/panelcodelab", [CodingLabController::class, 'panelcodelab'])->name('codelab.uno');
 Route::get("/panelcodelab1", [CodingLabController::class, 'panelcodelab1']);
+Route::get("/panelcodelab2", [CodingLabController::class, 'panelcodelab2']);
+Route::get("/panelcodelab3", [CodingLabController::class, 'panelcodelab3']);
 
 Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);
 Route::get("/codinglab/ejercicio2", [CodingLabController::class, 'ejercicio2']);
+Route::get("/Codinglab/working", WorkingComponent::class)->name('codinglab.working');
 
 
 /*--- Bluuweb ----*/

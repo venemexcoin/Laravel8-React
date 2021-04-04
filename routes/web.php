@@ -15,6 +15,7 @@ use App\Http\Livewire\OnlineTutorial\LiveTrackComponent;
 use App\Http\Livewire\OnlineTutorial\Css3DComponent;
 use App\Http\Livewire\OnlineTutorial\DarkmodoComponent;
 use App\Http\Livewire\OnlineTutorial\MenutoggleComponent;
+use App\Http\Livewire\OnlineTutorial\LoadingbarComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -53,7 +54,7 @@ Route::get("/codigonepal", [CodigonepalController::class, 'codigonepal']);
 
 /*Onile Tutoriales Rutas */
 
-Route::get("/onlinetutorial", [OnlinetutorialController::class, 'onlinetutorial']);
+Route::get("/onlinetutorial", [OnlinetutorialController::class, 'onlinetutorial'])->name('online.index');
 Route::get("/panel", [OnlinetutorialController::class, 'panel']);
 Route::get("/panel1", [OnlinetutorialController::class, 'panel1']);
 Route::get("/panel2", [OnlinetutorialController::class, 'panel2']);
@@ -84,6 +85,7 @@ Route::get("/onlineTutorial/livetrack", LiveTrackComponent::class)->name('online
 Route::get("/onlineTutorial/Css3D", Css3DComponent::class)->name('online.css3d');
 Route::get("/onlineTutorial/darkmodo", DarkmodoComponent::class)->name('online.darkmodo');
 Route::get("/onlineTutorial/menutoggle", MenutoggleComponent::class)->name('online.menutoggle');
+Route::get("/onlineTutorial/loadingbar", LoadingbarComponent::class)->name('online.loadingbar');
  
 
 /*Codigo CodingLab */

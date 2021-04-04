@@ -18,7 +18,7 @@
         <div class="imagen">
             <img src="{{ asset('assets/img/galeria/5.jpg')}}" alt="">
             <div class="overlay">
-                <a href="{{url('/codinglab/ejercicio1')}}">Visualizas</a>
+                <a href="{{url('/codinglab/ejercicio1')}}">Menu Plegable</a>
                 <h4>Boton</h4>
             </div>
         </div>

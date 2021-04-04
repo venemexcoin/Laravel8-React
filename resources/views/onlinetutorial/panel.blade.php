@@ -51,10 +51,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/loadingBar.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{route('online.loadingbar')}}">Loading bar Animation</a>
+                <h4>Animacion</h4>
             </div>
         </div>
         <div class="imagen">

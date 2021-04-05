@@ -44,9 +44,9 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/ResponsiveNavbar.png')}}" alt="">
             <div class="overlay">
-                <a href="{{ url('/onlineTutorial/darkmodo')}}">Dark Theme Website</a>
+                <a href="{{route('online.responav')}}">responsive Navbar</a>
                 <h4>Complit</h4>
             </div>
         </div>

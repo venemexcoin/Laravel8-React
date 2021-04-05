@@ -16,6 +16,7 @@ use App\Http\Livewire\OnlineTutorial\Css3DComponent;
 use App\Http\Livewire\OnlineTutorial\DarkmodoComponent;
 use App\Http\Livewire\OnlineTutorial\MenutoggleComponent;
 use App\Http\Livewire\OnlineTutorial\LoadingbarComponent;
+use App\Http\Livewire\OnlineTutorial\ResponnavComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -86,6 +87,7 @@ Route::get("/onlineTutorial/Css3D", Css3DComponent::class)->name('online.css3d')
 Route::get("/onlineTutorial/darkmodo", DarkmodoComponent::class)->name('online.darkmodo');
 Route::get("/onlineTutorial/menutoggle", MenutoggleComponent::class)->name('online.menutoggle');
 Route::get("/onlineTutorial/loadingbar", LoadingbarComponent::class)->name('online.loadingbar');
+Route::get("/onlineTutorial/responav", ResponnavComponent::class)->name('online.responav');
  
 
 /*Codigo CodingLab */

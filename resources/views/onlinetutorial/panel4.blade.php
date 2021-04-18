@@ -23,10 +23,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/Floating.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{route('online.menufload')}}">Floating Action</a>
+                <h4>Nan</h4>
             </div>
         </div>
         <div class="imagen">

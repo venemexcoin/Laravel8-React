@@ -22,6 +22,8 @@ use App\Http\Livewire\OnlineTutorial\FloatingactionComponent;
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
 
+use App\Http\Livewire\Javascript\HomeComponent;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -118,7 +120,7 @@ Route::get("/alexCG", [AlexCGController::class, 'alexCG']);
 
 
 /*---- varios ---*/
-Route::get('/varios',[VariosController::class, 'varios']);
+Route::get('/varios',[VariosController::class, 'varios'])->name('varios.index');
 
 Route::get("/varios/ejercicio1", [VariosController::class, 'ejercicio1']);
 Route::get("/varios/ejercicio2", [VariosController::class, 'ejercicio2']);
@@ -143,3 +145,9 @@ Route::get("/apis/ejercicio4", [ApiController::class, 'ejercicio4']);
 Route::get("/client/create", [ClienteController::class, 'create'])->name('cliente.create');
 
 Route::post("/client/create", [ClienteController::class, 'storeClient'])->name('clien.store');
+
+
+/*--------Pacticas de javascript todo -------*/
+
+Route::get('/javascript/home',HomeComponent::class)->name('javascript.home');
+

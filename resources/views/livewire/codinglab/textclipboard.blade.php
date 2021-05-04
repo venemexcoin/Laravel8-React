@@ -23,7 +23,7 @@ body{
         marging-bottom:60px; 
     }
     .text-boxes .text-box{
-        heigth:380px;
+        heigth:480px;
         max-width: 600px;
         width: 100%;
         margin:55px 0;
@@ -64,11 +64,30 @@ body{
     .text-boxes .text-box button:hover{
         background: #0e4bf1;
     }
+    .botonRetur{
+        height: 45px;
+        width: 155px;
+        color: #fff;
+        background: #265df2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .botonRetur:hover{
+        background: #0e4bf1;
+    }
 
     @media (max-width: 400px){
         .text-boxes .text-box button{
             width: 100%;
-        }    
+        }   
+        .botonRetur{
+            width: 100%;
+        }
     }
 </style>
 
@@ -77,7 +96,7 @@ body{
 <div class="text-boxes">
     <div class="text-box HTMLBox">
         <div class="tepic">HTML Codigo:</div>
-        <textarea id="HTMLBox" readinly>
+        <textarea id="HTMLBox" readinly style="height: 300px;">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident nostrum, officiis dolores vitae commodi repudiandae praesentium nam, eaque ea vero voluptatum quas deserunt non architecto vel odio quod pariatur!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident nostrum, officiis dolores vitae commodi repudiandae praesentium nam, eaque ea vero voluptatum quas deserunt non architecto vel odio quod pariatur!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident nostrum, officiis dolores vitae commodi repudiandae praesentium nam, eaque ea vero voluptatum quas deserunt non architecto vel odio quod pariatur!
@@ -86,7 +105,7 @@ body{
     </div>
     <div class="text-box CSSBox">
         <div class="tepic">CSS Codigo:</div>
-        <textarea id="CSSBox" readinly>
+        <textarea id="CSSBox" readinly style="height: 300px;">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident nostrum, officiis dolores vitae commodi repudiandae praesentium nam, eaque ea vero voluptatum quas deserunt non architecto vel odio quod pariatur!
             
         </textarea>
@@ -94,13 +113,15 @@ body{
     </div>
     <div class="text-box JSBox">
         <div class="tepic">JavaScript Codigo:</div>
-        <textarea id="JSBox" readinly>
+        <textarea id="JSBox" readinly style="height: 300px;">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident nostrum, officiis dolores vitae commodi repudiandae praesentium nam, eaque ea vero voluptatum quas deserunt non architecto vel odio quod pariatur!
             
         </textarea>
         <button id="JSButton">Copy Codes</button>
     </div>
+    <a href="{{route('index.codinglab')}}" type="boton" class="botonRetur">Retornar</a>
 </div>
+ 
 @push('scripts')
 <script>
     // HTML Box JS Code

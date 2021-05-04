@@ -100,7 +100,7 @@ Route::get('/onlineTutorial/prefil',PrefilComponent::class)->name('online.prefil
 
 /*Codigo CodingLab */
 
-Route::get("/codinglab", [CodingLabController::class, 'codinglab']);
+Route::get("/codinglab", [CodingLabController::class, 'codinglab'])->name('index.codinglab');
 Route::get("/panelcodelab", [CodingLabController::class, 'panelcodelab'])->name('codelab.uno');
 Route::get("/panelcodelab1", [CodingLabController::class, 'panelcodelab1']);
 Route::get("/panelcodelab2", [CodingLabController::class, 'panelcodelab2']);

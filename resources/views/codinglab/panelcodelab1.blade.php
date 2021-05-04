@@ -32,7 +32,7 @@
         <div class="imagen">
             <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
+                <a href="{{route('codinglab.textclipboard')}}">Copy textto Clipboard</a>
                 <h4>Red Social</h4>
             </div>
         </div>

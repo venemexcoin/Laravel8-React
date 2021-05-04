@@ -18,9 +18,12 @@ use App\Http\Livewire\OnlineTutorial\MenutoggleComponent;
 use App\Http\Livewire\OnlineTutorial\LoadingbarComponent;
 use App\Http\Livewire\OnlineTutorial\ResponnavComponent;
 use App\Http\Livewire\OnlineTutorial\FloatingactionComponent;
+use App\Http\Livewire\OnlineTutorial\PrefilComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
+use App\Http\Livewire\Codinglab\Textclipboard;
+
 
 use App\Http\Livewire\Javascript\HomeComponent;
 
@@ -92,6 +95,7 @@ Route::get("/onlineTutorial/menutoggle", MenutoggleComponent::class)->name('onli
 Route::get("/onlineTutorial/loadingbar", LoadingbarComponent::class)->name('online.loadingbar');
 Route::get("/onlineTutorial/responav", ResponnavComponent::class)->name('online.responav');
 Route::get('/onlineTutorial/menufload',FloatingactionComponent::class)->name('online.menufload');
+Route::get('/onlineTutorial/prefil',PrefilComponent::class)->name('online.prefil');
  
 
 /*Codigo CodingLab */
@@ -105,6 +109,9 @@ Route::get("/panelcodelab3", [CodingLabController::class, 'panelcodelab3']);
 Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);
 Route::get("/codinglab/ejercicio2", [CodingLabController::class, 'ejercicio2']);
 Route::get("/Codinglab/working", WorkingComponent::class)->name('codinglab.working');
+Route::get("/codinglab/textclipboard",Textclipboard::class)->name('codinglab.textclipboard');
+
+
 
 
 /*--- Bluuweb ----*/

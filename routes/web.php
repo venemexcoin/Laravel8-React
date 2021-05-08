@@ -19,6 +19,7 @@ use App\Http\Livewire\OnlineTutorial\LoadingbarComponent;
 use App\Http\Livewire\OnlineTutorial\ResponnavComponent;
 use App\Http\Livewire\OnlineTutorial\FloatingactionComponent;
 use App\Http\Livewire\OnlineTutorial\PrefilComponent;
+use App\Http\Livewire\OnlineTutorial\OxygenComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -66,6 +67,7 @@ Route::get("/panel", [OnlinetutorialController::class, 'panel']);
 Route::get("/panel1", [OnlinetutorialController::class, 'panel1']);
 Route::get("/panel2", [OnlinetutorialController::class, 'panel2']);
 Route::get("/panel3", [OnlinetutorialController::class, 'panel3']);
+Route::get("/panel3pagina1", [OnlinetutorialController::class, 'panel3pagina1'])->name('panel3pagina1');
 Route::get("/panel4", [OnlinetutorialController::class, 'panel4']);
 
 Route::get("/onlinetutorial/ejercicio1", [OnlinetutorialController::class, 'ejercicio1']);
@@ -96,6 +98,7 @@ Route::get("/onlineTutorial/loadingbar", LoadingbarComponent::class)->name('onli
 Route::get("/onlineTutorial/responav", ResponnavComponent::class)->name('online.responav');
 Route::get('/onlineTutorial/menufload',FloatingactionComponent::class)->name('online.menufload');
 Route::get('/onlineTutorial/prefil',PrefilComponent::class)->name('online.prefil');
+Route::get('/onlineTutorial/oxygen',OxygenComponent::class)->name('online.oxygen');
  
 
 /*Codigo CodingLab */

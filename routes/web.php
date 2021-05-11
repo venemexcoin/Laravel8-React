@@ -20,6 +20,7 @@ use App\Http\Livewire\OnlineTutorial\ResponnavComponent;
 use App\Http\Livewire\OnlineTutorial\FloatingactionComponent;
 use App\Http\Livewire\OnlineTutorial\PrefilComponent;
 use App\Http\Livewire\OnlineTutorial\OxygenComponent;
+use App\Http\Livewire\OnlineTutorial\PaginacionComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -27,6 +28,9 @@ use App\Http\Livewire\Codinglab\Textclipboard;
 
 
 use App\Http\Livewire\Javascript\HomeComponent;
+
+use App\Http\Livewire\Varios\CalculadotaTrading1;
+use App\Http\Livewire\Varios\VentaComponet;
 
 
 /*
@@ -66,7 +70,7 @@ Route::get("/onlinetutorial", [OnlinetutorialController::class, 'onlinetutorial'
 Route::get("/panel", [OnlinetutorialController::class, 'panel']);
 Route::get("/panel1", [OnlinetutorialController::class, 'panel1']);
 Route::get("/panel2", [OnlinetutorialController::class, 'panel2']);
-Route::get("/panel3", [OnlinetutorialController::class, 'panel3']);
+Route::get("/panel3", [OnlinetutorialController::class, 'panel3'])->name('onlinetutorial.panel3');
 Route::get("/panel3pagina1", [OnlinetutorialController::class, 'panel3pagina1'])->name('panel3pagina1');
 Route::get("/panel4", [OnlinetutorialController::class, 'panel4']);
 
@@ -99,6 +103,7 @@ Route::get("/onlineTutorial/responav", ResponnavComponent::class)->name('online.
 Route::get('/onlineTutorial/menufload',FloatingactionComponent::class)->name('online.menufload');
 Route::get('/onlineTutorial/prefil',PrefilComponent::class)->name('online.prefil');
 Route::get('/onlineTutorial/oxygen',OxygenComponent::class)->name('online.oxygen');
+Route::get('/onlineTutorial/paginacion',PaginacionComponent::class)->name('online.paginacion');
  
 
 /*Codigo CodingLab */
@@ -139,6 +144,8 @@ Route::get("/varios/ejercicio4", [VariosController::class, 'ejercicio4']);
 Route::get("/varios/ejercicio5", [VariosController::class, 'ejercicio5']);
 Route::get("/varios/ejercicio6", [VariosController::class, 'ejercicio6']);
 Route::get("/varios/ejercicio7", [VariosController::class, 'ejercicio7'])->name('cliente_path');
+Route::get("/varios/trading1",CalculadotaTrading1::class)->name("varios.trading");
+Route::get("/varios/ventas",VentaComponet::class)->name('varios.venta');
 
 /*----- API -------*/
 Route::get('/api1',[ApiController::class, 'api1']);

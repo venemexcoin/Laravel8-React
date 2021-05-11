@@ -17,7 +17,8 @@
     <div class="contenedor-imagenes">
         
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/oxygen.png
+            ')}}" alt="">
             <div class="overlay">
                 <a href="{{route('online.oxygen')}}">oxygen</a>
                 <h4>Red Social</h4>
@@ -85,7 +86,7 @@
         </div> -->
     </div>
     <!-- paginacion  --->
-        <a href="#" class="btn btn-success">Pagina 1</a>
+        
 
     <!-- fin paginacion --->
 </div>

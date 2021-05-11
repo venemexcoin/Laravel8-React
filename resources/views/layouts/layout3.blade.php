@@ -17,7 +17,7 @@
             <i class="menu_close fas fa-times"></i>
         </span>
         <ul class="menu_items">
-            <li><a href="{{ url('/')}}">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -35,6 +35,7 @@
                     <li><a href="{{url("/varios/ejercicio6")}}">Munu Full SCREEN vertical</a></li>
                     <li><a href="{{url("/varios/ejercicio7")}}">Base de datos Clientes</a></li>
                     <li><a href="{{route("javascript.home")}}">Practicas de Javascript</a></li>
+                    <li><a href="{{route("varios.trading")}}">Trading Operación</a></li>
                 </ul>
         </main>
     </div> 

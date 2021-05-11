@@ -83,11 +83,12 @@
         <!-- <div class="imagen">
             <img src="img/1 (2).jpg" alt="">
         </div> -->
+        <!-- paginacion  --->
+        @livewire('online-tutorial.paginacion-component')
+        <!-- fin paginacion --->
+        
     </div>
-    <!-- paginacion  --->
-    <a href="{{route('panel3pagina1')}}" class="btn btn-success">Pagina 1</a>
 
-    <!-- fin paginacion --->
 </div>
 
 

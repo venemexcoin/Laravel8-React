@@ -36,6 +36,7 @@
                     <li><a href="{{url("/varios/ejercicio7")}}">Base de datos Clientes</a></li>
                     <li><a href="{{route("javascript.home")}}">Practicas de Javascript</a></li>
                     <li><a href="{{route("varios.trading")}}">Trading Operación</a></li>
+                    <li><a href="{{route("varios.filtergalery")}}">Filter Galery</a></li>
                 </ul>
         </main>
     </div> 

@@ -31,6 +31,7 @@ use App\Http\Livewire\Javascript\HomeComponent;
 
 use App\Http\Livewire\Varios\CalculadotaTrading1;
 use App\Http\Livewire\Varios\VentaComponet;
+use App\Http\Livewire\Varios\FilterGaleryComponet;
 
 
 /*
@@ -146,6 +147,7 @@ Route::get("/varios/ejercicio6", [VariosController::class, 'ejercicio6']);
 Route::get("/varios/ejercicio7", [VariosController::class, 'ejercicio7'])->name('cliente_path');
 Route::get("/varios/trading1",CalculadotaTrading1::class)->name("varios.trading");
 Route::get("/varios/ventas",VentaComponet::class)->name('varios.venta');
+Route::get("/varios/filtergalery", FilterGaleryComponet::class)->name('varios.filtergalery'); 
 
 /*----- API -------*/
 Route::get('/api1',[ApiController::class, 'api1']);

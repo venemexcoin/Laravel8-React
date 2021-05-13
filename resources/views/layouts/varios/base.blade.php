@@ -766,6 +766,8 @@ let valores = []
 let valorDato = []
 let valorEth = []
 
+ 
+
 const obtenerDatos = async () => {
 const data = await fetch (
     MXN.mxm
@@ -782,10 +784,17 @@ valores = [
     {LTC: valor.XRP} 
 ]
 
-obtenerBTC()
-obtenerETH()
+ obtenerBTC()
+  obtenerETH()
 
-    document.querySelector('.divisa3').innerHTML = ` ${valor.MXN} USD_Pesos`
+if(valor !== undefined){
+  document.querySelector('.divisa3').innerHTML = ` ${valor.MXN} USD_Pesos`
+}else{
+  document.querySelector('.divisa3').innerHTML = ` Sevicio Caido`
+  return
+  
+}
+
     
 }
 
@@ -794,9 +803,14 @@ const data = await fetch (
     BTC.btc
 )
 const valorDatos = await data.json()
-   
-document.querySelector('.divisa1').innerHTML = ` ${valorDatos.MXN} BTC-MXN`
-document.querySelector('.divisa2').innerHTML = ` ${valorDatos.USD} BTC-USD`
+
+if(valorDatos !== undefined){
+  document.querySelector('.divisa1').innerHTML = ` ${valorDatos.MXN} BTC-MXN`
+  document.querySelector('.divisa2').innerHTML = ` ${valorDatos.USD} BTC-USD`
+}else {
+  document.querySelector('.divisa1').innerHTML = `  Sevicio Caido`
+  document.querySelector('.divisa2').innerHTML = `  Sevicio Caido`
+}   
 
 valorDato = [
     {MXN: valorDatos.MXN},
@@ -812,7 +826,11 @@ const data = await fetch (
 )    
 const valorEth = await data.json()
    
-document.querySelector('.divisa4').innerHTML = ` ${valorEth.MXN} ETH_MXN`
+if(valorEth !== undefined){
+  document.querySelector('.divisa4').innerHTML = ` ${valorEth.MXN} ETH_MXN`
+}else {
+  document.querySelector('.divisa4').innerHTML = ` Sevicio Caido`
+}
 
 
 valorDato = [

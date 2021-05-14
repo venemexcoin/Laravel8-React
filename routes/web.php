@@ -21,6 +21,7 @@ use App\Http\Livewire\OnlineTutorial\FloatingactionComponent;
 use App\Http\Livewire\OnlineTutorial\PrefilComponent;
 use App\Http\Livewire\OnlineTutorial\OxygenComponent;
 use App\Http\Livewire\OnlineTutorial\PaginacionComponent;
+use App\Http\Livewire\OnlineTutorial\ResposivecontactComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -105,7 +106,7 @@ Route::get('/onlineTutorial/menufload',FloatingactionComponent::class)->name('on
 Route::get('/onlineTutorial/prefil',PrefilComponent::class)->name('online.prefil');
 Route::get('/onlineTutorial/oxygen',OxygenComponent::class)->name('online.oxygen');
 Route::get('/onlineTutorial/paginacion',PaginacionComponent::class)->name('online.paginacion');
- 
+Route::get('/onlineTutorial/contact', ResposivecontactComponent::class)->name('online.contact'); 
 
 /*Codigo CodingLab */
 

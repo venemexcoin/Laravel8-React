@@ -32,6 +32,10 @@
             letter-spacing:1px;
             cursor: pointer;
         }
+        section ul li a{
+            text-decoration:none;
+            color: #000;
+        }
         section ul li.active {
             background: #03a9f4;
             color: #fff;
@@ -71,6 +75,7 @@
                     <li class="list" data-filter="watch">Watch</li>
                     <li class="list" data-filter="shoe">Shoe</li>
                     <li class="list" data-filter="headphone">Headephone</li>
+                    <li class="list"><a href="{{route('varios.index')}}">Logout</a></li>
                 </ul>
                 <div class="product">
                 <div class="itemBox" data-item="mobile"><img src="{{asset   ('assets/img/galeria/ProductFilter/mobile1.jpg')}}" alt=""></div>

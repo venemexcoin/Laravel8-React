@@ -22,6 +22,10 @@ use App\Http\Livewire\OnlineTutorial\PrefilComponent;
 use App\Http\Livewire\OnlineTutorial\OxygenComponent;
 use App\Http\Livewire\OnlineTutorial\PaginacionComponent;
 use App\Http\Livewire\OnlineTutorial\ResposivecontactComponent;
+use App\Http\Livewire\OnlineTutorial\cssanimationComponent;
+use App\Http\Livewire\OnlineTutorial\StarskillsComponent;
+use App\Http\Livewire\OnlineTutorial\TimelineComponent;
+use App\Http\Livewire\OnlineTutorial\OnlyimageComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -106,7 +110,11 @@ Route::get('/onlineTutorial/menufload',FloatingactionComponent::class)->name('on
 Route::get('/onlineTutorial/prefil',PrefilComponent::class)->name('online.prefil');
 Route::get('/onlineTutorial/oxygen',OxygenComponent::class)->name('online.oxygen');
 Route::get('/onlineTutorial/paginacion',PaginacionComponent::class)->name('online.paginacion');
-Route::get('/onlineTutorial/contact', ResposivecontactComponent::class)->name('online.contact'); 
+Route::get('/onlineTutorial/contact', ResposivecontactComponent::class)->name('online.contact');
+Route::get('/onlineTutorial/cssanimation',cssanimationComponent::class)->name('online.cssanimation');
+Route::get('/onlineTutorial/starskills', StarskillsComponent::class)->name('online.starskills');
+Route::get('/onlineTutorial/timeline', TimelineComponent::class)->name('online.timeline');
+Route::get('/onlineTutorial/onlyimage', OnlyimageComponent::class)->name('online.onlyimage');
 
 /*Codigo CodingLab */
 

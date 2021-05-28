@@ -88,6 +88,7 @@
             height: 40px;
             color: #fff;
         }
+        
         .container .row100 .col .inputBox input,
         .container .row100 .col .inputBox textarea {
             position: absolute;
@@ -132,6 +133,14 @@
             border-radius: 2px;
             pointer-events: none;
         }
+
+        .container .row100 .col .inputBox .line.active {
+            background: #df2029;
+        }
+        .container .row100 .col .inputBox .line.correct {
+            background: #04fd64;
+        }
+         
         .container .row100 .col .inputBox input:focus ~ .line,
         .container .row100 .col .inputBox input:valid ~ .line{
             height: 100%;
@@ -158,6 +167,20 @@
             font-size: 18px;
             border-radius:2px;
         }
+        
+        .alert{
+            width: 100%;
+            height: 50px;
+            background:#2196f3;
+            color: #fff;
+            text-align: center;
+            font-size:18px;
+            font-weight: 600;
+        }
+        .text-danger {
+            color: red;
+        }
+        
         @media (max-width:768px)
         {
             section::before {
@@ -178,47 +201,58 @@
     </style>
 
     <section>
+       
+        <form wire:submit.prevent="addClient" id="formulario">
         <div class="container">
+            @if(Session::has('message'))
+            <div class="alert" role="alert">{{Session::get('message')}}</div>
+            @endif
             <h2>Glossmorphism Contact Us Form</h2>
         <div class="row100">
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="" required="required">
+                    <input type="text" name="firstName"  wire:model="name" required="required">
                     <span class="text">First Name</span>
-                    <span class="line"></span>
+                    <span class="line" id="grupo__usuario"></span>
+                    @error('name') <p class="text-danger">{{$message}}</p> @enderror
+                   
                 </div>
             </div>
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="" required="required">
+                    <input type="text" name="lastname" required="required" wire:model="lastname">
                     <span class="text">last Name</span>
-                    <span class="line"></span>
+                    <span class="line" id="grupo__apellido"></span>
+                    @error('lastname') <p class="text-danger">{{$message}}</p> @enderror
                 </div>
             </div>
         </div>
         <div class="row100">
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="" required="required">
+                    <input type="text" name="email" required="required" wire:model="email">
                     <span class="text">Email</span>
-                    <span class="line"></span>
+                    <span class="line" id="grupo__correo"></span>
                 </div>
+                @error('email') <p class="text-danger">{{$message}}</p> @enderror
             </div>
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="" required="required">
+                    <input type="text" name="mobile" required="required" wire:model="mobile">
                     <span class="text">Mobile</span>
-                    <span class="line"></span>
+                    <span class="line" id="grupo__telefono"></span>
                 </div>
+                @error('mobile') <p class="text-danger">{{$message}}</p> @enderror
             </div>
         </div>
 
         <div class="row100">
             <div class="col">
                 <div class="inputBox textarea">
-                    <textarea required="required"></textarea>
+                    <textarea wire:model="message" name="message" required="required"></textarea>
                     <span class="text">type You Message Here...</span>
                     <span class="line"></span>
+                    @error('message') <p class="text-danger">{{$message}}</p> @enderror
                 </div>
             </div>
         </div>
@@ -229,5 +263,57 @@
             </div>
         </div>
     </div> 
-    </section>
+   </form> 
+  
+</section>
+
+<script>
+const formulario = document.getElementById('formulario');
+const inputs = document.querySelectorAll('#formulario input');
+
+    const expresiones = {
+ usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
+ nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+ apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+ password: /^.{4,12}$/, // 4 a 12 digitos.
+ correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+ telefono: /^\d{10,10}$/ // 7 a 14 numeros.
+}
+
+const validarFormulario = (e) => {
+    switch (e.target.name) {
+        case"firstName":
+        validarCampo(expresiones.usuario,e.target,'usuario');
+        break;
+        case"lastname":
+        validarCampo(expresiones.apellido,e.target,'apellido');
+        break;
+        case"email":
+        validarCampo(expresiones.correo,e.target,'correo');
+        break;
+        case"mobile":
+        validarCampo(expresiones.telefono,e.target,'telefono');
+        break;
+    }
+}
+
+const validarCampo = (exprecion,input,campo) => {
+    if(exprecion.test(input.value)){
+            document.getElementById(`grupo__${campo}`).classList.remove('active');
+            document.getElementById(`grupo__${campo}`).classList.add('correct');
+        }else {
+           document.getElementById(`grupo__${campo}`).classList.add('active');
+           document.getElementById(`grupo__${campo}`).classList.remove('correct'); 
+        }
+}
+
+inputs.forEach((input) => {
+    input.addEventListener('keyup', validarFormulario );
+    input.addEventListener('blur', validarFormulario );
+});
+
+formulario.addEventListener('submit',(e) => {
+    e.preventDefault();
+});
+</script>
 </div>

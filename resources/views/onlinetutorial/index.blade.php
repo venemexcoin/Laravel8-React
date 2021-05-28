@@ -23,7 +23,7 @@
         
     </div>
     <div class="online-card">
-        <a href="{{ url('panel1')}}" class="online-card__body"><span class="online-card__title">Sección de Paginas Completas, responsive y normal(6)</span></a>
+        <a href="{{ url('panel1')}}" class="online-card__body"><span class="online-card__title">Sección de Paginas Completas, responsive y normal(7)</span></a>
         <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
             <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p> 
         </div>

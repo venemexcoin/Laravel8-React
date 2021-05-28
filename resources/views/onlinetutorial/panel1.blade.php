@@ -51,17 +51,17 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/start5.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{route('online.starskills')}}">5 Start Skills</a>
+                <h4>Animacion</h4>
             </div>
         </div>
         <div class="imagen">
             <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{route('online.timeline')}}">Timeline Animacions</a>
+                <h4>Animacion</h4>
             </div>
         </div>
         <div class="imagen">

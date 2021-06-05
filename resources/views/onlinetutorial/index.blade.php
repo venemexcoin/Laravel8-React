@@ -23,7 +23,7 @@
         
     </div>
     <div class="online-card">
-        <a href="{{ url('panel1')}}" class="online-card__body"><span class="online-card__title">Sección de Paginas Completas, responsive y normal(7)</span></a>
+        <a href="{{ url('panel1')}}" class="online-card__body"><span class="online-card__title">Sección de Paginas Completas, responsive y normal(8)</span></a>
         <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
             <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p> 
         </div>
@@ -38,14 +38,14 @@
     </div>
 
     <div class="online-card">
-        <a href="{{ url('panel3')}}" class="online-card__body"><span class="online-card__title">Animaciones (9) </span></a>
+        <a href="{{ url('panel3')}}" class="online-card__body"><span class="online-card__title">Animaciones (10) </span></a>
         <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
             <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p>
     </div>
 </div>
 
 <div class="online-card">
-    <a href="{{ url('panel4')}}" class="online-card__body"><span class="online-card__title">Menus y Footer(2)</span></a>
+    <a href="{{ url('panel4')}}" class="online-card__body"><span class="online-card__title">Menus y Footer(3)</span></a>
     <div class="online-card__descrition"><span>Tecnologias Usadas en esta sección</span></br>
         <p>HTML, CSS, JavaScript y ( jquery pero no indispensable)</p>
 </div>

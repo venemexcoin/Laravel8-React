@@ -39,7 +39,7 @@
             </li>
             <li>
               <i class="fas fa-stream"></i>
-              <a href="#">Overview</a>
+              <a href="{{route('online.admin')}}">Admin</a>
             </li>
             <li>
               <i class="fas fa-calendar-week"></i>

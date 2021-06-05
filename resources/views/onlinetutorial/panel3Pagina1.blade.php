@@ -40,9 +40,9 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/Capitana.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
+                <a href="{{route('online.onlyimage')}}">CSS only Comparison</a>
                 <h4>Tarjeta</h4>
             </div>
         </div>

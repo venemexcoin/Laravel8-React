@@ -8,6 +8,6 @@ class OnlyimageComponent extends Component
 {
     public function render()
     {
-        return view('livewire.online-tutorial.onlyimage-component');
+        return view('livewire.online-tutorial.onlyimage-component')->layout('layouts.onlinet.blanco');
     }
 }

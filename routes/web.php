@@ -26,6 +26,9 @@ use App\Http\Livewire\OnlineTutorial\cssanimationComponent;
 use App\Http\Livewire\OnlineTutorial\StarskillsComponent;
 use App\Http\Livewire\OnlineTutorial\TimelineComponent;
 use App\Http\Livewire\OnlineTutorial\OnlyimageComponent;
+use App\Http\Livewire\OnlineTutorial\StackedcardsComponent;
+use App\Http\Livewire\OnlineTutorial\StackedcardsAddComponent;
+use App\Http\Livewire\OnlineTutorial\MakegoogleComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -115,6 +118,9 @@ Route::get('/onlineTutorial/cssanimation',cssanimationComponent::class)->name('o
 Route::get('/onlineTutorial/starskills', StarskillsComponent::class)->name('online.starskills');
 Route::get('/onlineTutorial/timeline', TimelineComponent::class)->name('online.timeline');
 Route::get('/onlineTutorial/onlyimage', OnlyimageComponent::class)->name('online.onlyimage');
+Route::get('/onlineTutorial/stacked', StackedcardsComponent::class)->name('online.stacked');
+Route::get('/onlineTutorial/admin', StackedcardsAddComponent::class)->name('online.admin');
+Route::get('/onlineTutorial/google', MakegoogleComponent::class)->name('online.google');
 
 /*Codigo CodingLab */
 

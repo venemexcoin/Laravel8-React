@@ -65,9 +65,9 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/google.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Servicio Unlock</a>
+                <a href="{{route('online.google')}}">Make Working Google Search</a>
                 <h4>Red Social</h4>
             </div>
         </div>

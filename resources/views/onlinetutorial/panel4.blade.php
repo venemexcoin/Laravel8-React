@@ -30,10 +30,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/stracked.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{route('online.stacked')}}">Resposive CSS Stacked Cards</a>
+                <h4>Menu</h4>
             </div>
         </div>
         <div class="imagen">

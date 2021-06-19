@@ -29,6 +29,8 @@ use App\Http\Livewire\OnlineTutorial\OnlyimageComponent;
 use App\Http\Livewire\OnlineTutorial\StackedcardsComponent;
 use App\Http\Livewire\OnlineTutorial\StackedcardsAddComponent;
 use App\Http\Livewire\OnlineTutorial\MakegoogleComponent;
+use App\Http\Livewire\OnlineTutorial\StackedAddComponent;
+use App\Http\Livewire\OnlineTutorial\EcomerComponent; 
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -121,6 +123,11 @@ Route::get('/onlineTutorial/onlyimage', OnlyimageComponent::class)->name('online
 Route::get('/onlineTutorial/stacked', StackedcardsComponent::class)->name('online.stacked');
 Route::get('/onlineTutorial/admin', StackedcardsAddComponent::class)->name('online.admin');
 Route::get('/onlineTutorial/google', MakegoogleComponent::class)->name('online.google');
+Route::get('/onlineTutorial/ecomer', EcomerComponent::class)->name('online.ecomer');
+
+/* Nueva Administaracion */
+Route::get('onlineTutorial/stacked-add',StackedAddComponent::class)->name('online.stackedAdd');
+
 
 /*Codigo CodingLab */
 

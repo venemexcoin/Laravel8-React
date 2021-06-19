@@ -74,8 +74,8 @@
         <div class="imagen">
             <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{route('online.ecomer')}}">Responsive eCommerce</a>
+                <h4>eComer</h4>
             </div>
         </div>
         <!-- <div class="imagen">

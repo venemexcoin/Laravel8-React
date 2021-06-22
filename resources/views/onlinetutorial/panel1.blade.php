@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/eCommer.png')}}" alt="">
             <div class="overlay">
                 <a href="{{route('online.ecomer')}}">Responsive eCommerce</a>
                 <h4>eComer</h4>

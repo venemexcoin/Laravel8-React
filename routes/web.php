@@ -31,6 +31,9 @@ use App\Http\Livewire\OnlineTutorial\StackedcardsAddComponent;
 use App\Http\Livewire\OnlineTutorial\MakegoogleComponent;
 use App\Http\Livewire\OnlineTutorial\StackedAddComponent;
 use App\Http\Livewire\OnlineTutorial\EcomerComponent; 
+use App\Http\Livewire\OnlineTutorial\MenuDespleComponent;
+use App\Http\Livewire\OnlineTutorial\SocialIconComponent;
+use App\Http\Livewire\OnlineTutorial\scrollprogressComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -79,7 +82,8 @@ Route::get("/codigonepal", [CodigonepalController::class, 'codigonepal']);
 
 Route::get("/onlinetutorial", [OnlinetutorialController::class, 'onlinetutorial'])->name('online.index');
 Route::get("/panel", [OnlinetutorialController::class, 'panel']);
-Route::get("/panel1", [OnlinetutorialController::class, 'panel1']);
+Route::get("/panel1", [OnlinetutorialController::class, 'panel1'])->name('onlinetutorial.panel1');
+Route::get("/panel1pagina1", [OnlinetutorialController::class, 'panel1Pagina1'])->name('panel1pagina1');
 Route::get("/panel2", [OnlinetutorialController::class, 'panel2']);
 Route::get("/panel3", [OnlinetutorialController::class, 'panel3'])->name('onlinetutorial.panel3');
 Route::get("/panel3pagina1", [OnlinetutorialController::class, 'panel3pagina1'])->name('panel3pagina1');
@@ -124,6 +128,10 @@ Route::get('/onlineTutorial/stacked', StackedcardsComponent::class)->name('onlin
 Route::get('/onlineTutorial/admin', StackedcardsAddComponent::class)->name('online.admin');
 Route::get('/onlineTutorial/google', MakegoogleComponent::class)->name('online.google');
 Route::get('/onlineTutorial/ecomer', EcomerComponent::class)->name('online.ecomer');
+Route::get('/onlineTutorial/menudesple', MenuDespleComponent::class)->name('online.menudesple');
+Route::get('/onlineTutorial/socialIcon', SocialIconComponent::class)->name('online.socialIcon');
+Route::get('/onlineTutorial/scrollprogress', scrollprogressComponent::class)->name('online.scrollprogress');
+
 
 /* Nueva Administaracion */
 Route::get('onlineTutorial/stacked-add',StackedAddComponent::class)->name('online.stackedAdd');

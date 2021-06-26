@@ -36,6 +36,9 @@ class OnlinetutorialController extends Controller
     public function panel3pagina1() {
         return view('onlinetutorial.panel3Pagina1');
     }
+    public function panel1pagina1() {
+        return view('onlinetutorial.panel1Pagina1');
+    }
 
     // Rutas de ejemplos
     

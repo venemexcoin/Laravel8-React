@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('title_base')
-    Botones & Social
+   Paginas Completas
 @endsection
 
 @section('style')
@@ -81,6 +81,8 @@
         <!-- <div class="imagen">
             <img src="img/1 (2).jpg" alt="">
         </div> -->
+        {{-- paginacio --}}
+        @livewire('online-tutorial.paginacion-p1-component')
     </div>
 </div>
 </div>

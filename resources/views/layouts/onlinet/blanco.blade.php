@@ -24,3 +24,7 @@
     @livewireScripts
 </body>
 </html>
+
+{{-- usamos una libreia extena de javaScrip en esta direccion 
+    https://micku7zu.github.io/vanilla-tilt.js/ --}}
+    

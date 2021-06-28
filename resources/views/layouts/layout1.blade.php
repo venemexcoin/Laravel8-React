@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/codinglab/neumorphism.css')}}">
     <script src="https://kit.fontawesome.com/3226d1ef96.js" crossorigin="anonymous"></script>
     @yield('style')
+    
 </head>
 <body>
     <div class="main_box">
@@ -19,6 +20,8 @@
              <div class="logo">ChamocellDev</div>
              <label class="button cancel" for="check"><i class="fas fa-times"></i></label>
          </div>
+
+         
          <ul>
              <li><a href="{{url('/')}}"><i class="fas fa-home"></i>Home</a></li>
              <li><a href="{{url('/bluuweb')}}"><i class="fas fa-link"></i>Bluuweb</a></li>
@@ -38,11 +41,13 @@
      </div>
     </div>
     @yield('content')
+
     
      
     
 
      <script src="{{asset('js/app.js')}}"></script>
     @yield('script')
+    
 </body>
 </html>

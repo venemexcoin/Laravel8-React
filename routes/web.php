@@ -36,6 +36,7 @@ use App\Http\Livewire\OnlineTutorial\SocialIconComponent;
 use App\Http\Livewire\OnlineTutorial\scrollprogressComponent;
 use App\Http\Livewire\OnlineTutorial\ProfileCardComponent;
 use App\Http\Livewire\OnlineTutorial\CardDesingComponent;
+use App\Http\Livewire\OnlineTutorial\SliderMenuComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -135,6 +136,7 @@ Route::get('/onlineTutorial/socialIcon', SocialIconComponent::class)->name('onli
 Route::get('/onlineTutorial/scrollprogress', scrollprogressComponent::class)->name('online.scrollprogress');
 Route::get('/onlineTutorial/profilecard', ProfileCardComponent::class)->name('online.profilecard');
 Route::get('/onlineTutorial/carddesing', CardDesingComponent::class)->name('online.carddesing');
+Route::get('/onlineTutorial/slidermenu', SliderMenuComponent::class)->name('online.slidermenu');
 
 /* Nueva Administaracion */
 Route::get('onlineTutorial/stacked-add',StackedAddComponent::class)->name('online.stackedAdd');

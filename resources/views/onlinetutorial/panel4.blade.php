@@ -51,10 +51,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/SidebarMenu.png')}}" alt="" style="width: 100%, height:100%;">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Red Social</h4>
+                <a href="{{route('online.slidermenu')}}">Slider Menu</a>
+                <h4>Menu</h4>
             </div>
         </div>
         <div class="imagen">

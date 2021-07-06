@@ -45,7 +45,7 @@ class MenuPrincipalEditComponent extends Component
         $vista->title   = $this->title;
         $vista->widget1 = $this->widget1;
         $vista->widget2 = $this->widget2;
-        $vista->widget3 = $this->widget2;
+        $vista->widget3 = $this->widget3;
         $vista->ruta    = $this->ruta;
         if($this->newimage)
         {

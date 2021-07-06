@@ -33,7 +33,7 @@ class MenuPrincipalAddComponent extends Component
         $menu->title = $this->title;
         $menu->widget1 = $this->widget1;
         $menu->widget2 = $this->widget2;
-        $menu->widget3 = $this->widget2;
+        $menu->widget3 = $this->widget3;
         $menu->ruta = $this->ruta;
         $imageName = Carbon::now()->timestamp. '.' . $this->image->extension();
         $this->image->storeAs('Menu',$imageName);

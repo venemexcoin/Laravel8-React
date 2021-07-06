@@ -35,7 +35,7 @@
           </li>
           <li>
             <img src="{{asset('assets/img/fromtem/CodingLab.png')}}" class="fromtem-img__nepal">
-            <a href="{{ url('/codinglab')}}">CodingLab</a>
+            <a href="{{ route('codinglab.principal')}}">CodingLab</a>
           </li>
           <li>
             <img src="{{asset('assets/img/fromtem/bluuweb2.png')}}" class="fromtem-img__nepal">

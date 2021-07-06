@@ -41,6 +41,10 @@ use App\Http\Livewire\OnlineTutorial\SliderMenuComponent;
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
 use App\Http\Livewire\Codinglab\Textclipboard;
+use App\Http\Livewire\Codinglab\PrincipaluComponent;
+use App\Http\Livewire\Codinglab\MenuPrincipalAddComponent;
+use App\Http\Livewire\Codinglab\MenuPrincipalEditComponent;
+use App\Http\Livewire\Codinglab\MenuPrincipaAllComponent;
 
 
 use App\Http\Livewire\Javascript\HomeComponent;
@@ -154,6 +158,10 @@ Route::get("/codinglab/ejercicio1", [CodingLabController::class, 'ejercicio1']);
 Route::get("/codinglab/ejercicio2", [CodingLabController::class, 'ejercicio2']);
 Route::get("/Codinglab/working", WorkingComponent::class)->name('codinglab.working');
 Route::get("/codinglab/textclipboard",Textclipboard::class)->name('codinglab.textclipboard');
+Route::get("/codinglab/principal", PrincipaluComponent::class)->name('codinglab.principal');
+Route::get("/codinglab/addmenu", MenuPrincipalAddComponent::class)->name("codinglab.addmenu");
+Route::get("/codinglab/editmenu/{vista_id}", MenuPrincipalEditComponent::class)->name("codinglab.editmenu");
+Route::get("/codinglab/allmenu", MenuPrincipaAllComponent::class)->name("codinglab.allmenu");
 
 
 

@@ -27,8 +27,8 @@
         <div class="imagen">
             <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>formulario</h4>
+                <a href="{{route('online.portafolio')}}">Portafolio</a>
+                <h4>Paginas</h4>
             </div>
         </div>
         <div class="imagen">

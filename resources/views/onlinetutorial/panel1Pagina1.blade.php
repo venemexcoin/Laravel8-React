@@ -32,10 +32,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/SlitVideo.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>css efectos</h4>
+                <a href="{{route('online.slidervideo')}}">Slit Video</a>
+                <h4>Paginas</h4>
             </div>
         </div>
         <div class="imagen">

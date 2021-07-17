@@ -13,6 +13,7 @@
      --black2: #333;
      --white: #fff;
      --white2: #fff;
+     --prueba: rgb(248, 3, 3);
  }
  body {
      font-family:'Poppins', sans-serif;
@@ -94,7 +95,7 @@
      justify-content:space-between;
      align-items: center;
      z-index: 10000;
-     transition:width 0.5s,left 0.5s;
+     transition: width 0.5s,left 0.5s;
  }
  .main .topbar.active {
     width: calc(100% - 0px);
@@ -122,7 +123,6 @@
  section {
      position: relative;
      min-height: 100vh;
-     background:red ;
  }
  .banner {
      display: flex;

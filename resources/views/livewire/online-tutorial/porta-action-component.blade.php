@@ -17,6 +17,11 @@
         align-items:center;
         min-height: 100vh;
     }
+    .mainWebsite {
+     margin: 20px 0;
+     color: #111;
+     text-decoration: none;  
+    }
     .container{
         position: relative;
         width: 100%;
@@ -211,6 +216,7 @@
         width: 20px;
     }
 
+
     @media (max-width: 1000px)
     {
         .container
@@ -246,13 +252,14 @@
 
 @endpush
 <div>
+    <a href="{{route('online.portafolio')}}" class="mainWebsite"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to main Websiter</a>
     <div class="container">
         <div class="left_Side">
             <div class="profileText">
                 <div class="imgBx">
-                    <img src="{{asset('assets/img/galeria/portafolio/user.jpg')}}" alt="">
+                    <img src="{{asset('assets/img/galeria/portafolio/img1yo.jpeg')}}" alt="">
                 </div>
-                <h2>Muhammad Irshad<br><span>Web Developer</span></h2>
+                <h2>EDuardo Liendo<br><span>Web Developer</span></h2>
             </div>
 
             <div class="contactInfo">

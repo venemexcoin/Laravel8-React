@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #323232;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #2bbaff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.bg h2 {
+    position: relative;
+    color: #fff;
+    font-size: 5em;
+}
+section {
+    padding: 100px;
+}
+
+section h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.SkewedOne {
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: #323232;
+    transform: skewY(-14deg);
+    transform-origin: top left;
+}
+
+.SkewedTwo {
+    position: absolute;
+    bottom: -100%;
+    right: 50%;
+    width: 100%;
+    height: 100%;
+    background: #323232;
+    transform: skewY(14deg);
+    transform-origin: top right;
+}
+
+section p {
+    color: #fff;
+    font-size: 1.2em;
+}

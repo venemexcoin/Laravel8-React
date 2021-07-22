@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h1 class="employee-title">
-            <a href="/employee">Full Stack - Laravel 8 & React</a>
+            <a href="/employee">Rama de desarrolladores chamocell</a>
         </h1>
         <hr>
 

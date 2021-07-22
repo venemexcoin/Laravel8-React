@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_box {
+    margin: 5% 2% auto 2%;
+}
+
+.main_box--ej2 {
+    max-width: 544px;
+    margin-left: 28%;
+}
+
+.bluuweb-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item1 {
+    grid-area: header;
+}
+.item2 {
+    grid-area: menu;
+}
+.item3 {
+    grid-area: main;
+}
+.item4 {
+    grid-area: right;
+}
+.item5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main main '
+        'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.header-title {
+    text-align: center;
+    padding: 40px 0;
+    color: blue;
+}
+
+.bluuwed-menu {
+    padding: 20px 0;
+    color: blue;
+}
+
+.bluuwed-menu ol > li {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.bluuwed-menu ol > li a {
+    text-decoration: none;
+    color: blue;
+}

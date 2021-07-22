@@ -50,6 +50,7 @@ use App\Http\Livewire\Codinglab\PrincipaluComponent;
 use App\Http\Livewire\Codinglab\MenuPrincipalAddComponent;
 use App\Http\Livewire\Codinglab\MenuPrincipalEditComponent;
 use App\Http\Livewire\Codinglab\MenuPrincipaAllComponent;
+use App\Http\Livewire\Codinglab\NavigationComponent;
 
 
 use App\Http\Livewire\Javascript\HomeComponent;
@@ -175,6 +176,7 @@ Route::get("/codinglab/principal", PrincipaluComponent::class)->name('codinglab.
 Route::get("/codinglab/addmenu", MenuPrincipalAddComponent::class)->name("codinglab.addmenu");
 Route::get("/codinglab/editmenu/{vista_id}", MenuPrincipalEditComponent::class)->name("codinglab.editmenu");
 Route::get("/codinglab/allmenu", MenuPrincipaAllComponent::class)->name("codinglab.allmenu");
+Route::get('/codinglab/navigation', NavigationComponent::class)->name("codinglab.navigation");
 
 
 

@@ -25,7 +25,7 @@
         </div>
 
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/portafolio.png')}}" alt="">
             <div class="overlay">
                 <a href="{{route('online.portafolio')}}">Portafolio</a>
                 <h4>Paginas</h4>

@@ -56,7 +56,8 @@
     margin-right:auto;
     text-align:center;
   }
-  input[type=text]{
+  input[type=text],
+  input[type=date]{
     width:175px;
     height:27px;
     margin-top:13px;
@@ -83,6 +84,10 @@
   }
 
   input[type=file]{
+      padding: 10px;
+  }
+  input[type=date]{
+      
       padding: 10px;
   }
   input[type=submit]{
@@ -205,7 +210,7 @@
         @enderror
 
         <input 
-            type="text" 
+            type="date" 
                 value="Fecha" 
                     wire:model="widget3"
                     placeholder="Fecha D/M/YYY"

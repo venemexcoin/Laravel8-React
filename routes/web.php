@@ -58,6 +58,8 @@ use App\Http\Livewire\Varios\CalculadotaTrading1;
 use App\Http\Livewire\Varios\VentaComponet;
 use App\Http\Livewire\Varios\FilterGaleryComponet;
 
+use App\Http\Livewire\CodigoNepal\CamptchaComponent;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -87,6 +89,7 @@ Route::get("/ejemplo2", [PruebaController::class, 'ejemplo2']);
 /*Codigo Nepal Rutas */
 
 Route::get("/codigonepal", [CodigonepalController::class, 'codigonepal']);
+Route::get("/codigonepal/capcha", CamptchaComponent::class)->name('codigonepal.capcha');
 
 
 

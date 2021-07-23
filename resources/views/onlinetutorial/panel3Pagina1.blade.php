@@ -61,9 +61,9 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/checkout.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
+                <a href="{{route('online.checkout')}}">Tarjeta Ckeckout</a>
                 <h4>Animate</h4>
             </div>
         </div>

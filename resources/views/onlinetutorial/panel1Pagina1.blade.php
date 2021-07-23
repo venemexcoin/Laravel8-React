@@ -41,7 +41,7 @@
         <div class="imagen">
             <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
+                <a href="#">Disponible</a>
                 <h4>Tarjeta</h4>
             </div>
         </div>

@@ -42,6 +42,7 @@ use App\Http\Livewire\OnlineTutorial\UsingMenuComponent;
 use App\Http\Livewire\OnlineTutorial\PortafolioComponent;
 use App\Http\Livewire\OnlineTutorial\PortaActionComponent;
 use App\Http\Livewire\OnlineTutorial\SlitVideoComponent;
+use App\Http\Livewire\OnlineTutorial\CheckoutComponent; 
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -155,6 +156,7 @@ Route::get('/onlineTutorial/menuusing', UsingMenuComponent::class)->name('online
 Route::get('/onlineTutorial/portafolio', PortafolioComponent::class)->name('online.portafolio');
 Route::get('/onlineTutorial/dataporta', PortaActionComponent::class)->name('online.dataporta'); 
 Route::get('/onlineTutorial/slidervideo', SlitVideoComponent::class)->name('online.slidervideo');
+Route::get('/onlineTutorial/checkout', CheckoutComponent::class)->name('online.checkout');
 
 /* Nueva Administaracion */
 Route::get('onlineTutorial/stacked-add',StackedAddComponent::class)->name('online.stackedAdd');

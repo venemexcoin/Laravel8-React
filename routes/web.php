@@ -59,6 +59,8 @@ use App\Http\Livewire\Javascript\HomeComponent;
 use App\Http\Livewire\Varios\CalculadotaTrading1;
 use App\Http\Livewire\Varios\VentaComponet;
 use App\Http\Livewire\Varios\FilterGaleryComponet;
+use App\Http\Livewire\Varios\Pactica1Component;
+use App\Http\Livewire\Varios\Pactica2Component;
 
 use App\Http\Livewire\CodigoNepal\CamptchaComponent;
 
@@ -208,6 +210,8 @@ Route::get("/varios/ejercicio7", [VariosController::class, 'ejercicio7'])->name(
 Route::get("/varios/trading1",CalculadotaTrading1::class)->name("varios.trading");
 Route::get("/varios/ventas",VentaComponet::class)->name('varios.venta');
 Route::get("/varios/filtergalery", FilterGaleryComponet::class)->name('varios.filtergalery'); 
+Route::get('/varios/pactica1', Pactica1Component::class)->name('varios.pactica1');
+Route::get('/varios/pactica2', Pactica2Component::class)->name('varios.pactica2');
 
 /*----- API -------*/
 Route::get('/api1',[ApiController::class, 'api1']);

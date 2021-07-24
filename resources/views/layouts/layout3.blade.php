@@ -37,6 +37,8 @@
                     <li><a href="{{route("javascript.home")}}">Practicas de Javascript</a></li>
                     <li><a href="{{route("varios.trading")}}">Trading Operación</a></li>
                     <li><a href="{{route("varios.filtergalery")}}">Filter Galery</a></li>
+                    <li><a href="{{route("varios.pactica1")}}">Parctica1</a></li>
+                    <li><a href="{{route("varios.pactica2")}}">Parctica2</a></li>
                 </ul>
         </main>
     </div> 

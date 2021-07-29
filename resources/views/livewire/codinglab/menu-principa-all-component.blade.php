@@ -10,6 +10,7 @@
     }
     table{
         border-collapse: collapse;
+        margin-bottom: 60px;
     }
     td, th {
         padding: 5px 10px;
@@ -58,6 +59,13 @@
             font-weight: bold;
         }
     }
+        nav svg {
+            height: 20px;
+        }
+        nav .hidden {
+            display: block !important;
+        }
+    
     
 </style>
 @endpush
@@ -101,6 +109,9 @@
                     @endforeach
                 </tbody>
             </table>
+            <div class="paginacion">
+                {{$vistas->links()}}
+            </div>
         </main>
     </div>
 

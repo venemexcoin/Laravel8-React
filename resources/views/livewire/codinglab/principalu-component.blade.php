@@ -22,6 +22,7 @@
            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
            grid-gap: 20px;
            padding: 20px;
+           margin-bottom: 60px;
        }
        .container .card {
            width: 100%;
@@ -143,6 +144,12 @@
            font-size: 21px;
            font-weight: bold;
         }
+        nav svg {
+            height: 20px;
+        }
+        nav .hidden {
+            display: block !important;
+        }
     </style>
 
     <div class="container">
@@ -182,9 +189,9 @@
             </div>
         </div>
         @endforeach 
-
+           
         </div>
-
+        {{$vistas->links()}}
     </div>
 
 </div>

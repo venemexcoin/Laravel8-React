@@ -43,6 +43,7 @@ use App\Http\Livewire\OnlineTutorial\PortafolioComponent;
 use App\Http\Livewire\OnlineTutorial\PortaActionComponent;
 use App\Http\Livewire\OnlineTutorial\SlitVideoComponent;
 use App\Http\Livewire\OnlineTutorial\CheckoutComponent; 
+use App\Http\Livewire\OnlineTutorial\WavyLineComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -63,6 +64,7 @@ use App\Http\Livewire\Varios\Pactica1Component;
 use App\Http\Livewire\Varios\Pactica2Component;
 
 use App\Http\Livewire\CodigoNepal\CamptchaComponent;
+use App\Http\Livewire\CodigoNepal\DraggableComponent; 
 
 
 /*
@@ -94,6 +96,7 @@ Route::get("/ejemplo2", [PruebaController::class, 'ejemplo2']);
 
 Route::get("/codigonepal", [CodigonepalController::class, 'codigonepal']);
 Route::get("/codigonepal/capcha", CamptchaComponent::class)->name('codigonepal.capcha');
+Route::get("/codigonepal/draggable", DraggableComponent::class)->name('codigonepal.draggable');
 
 
 
@@ -159,6 +162,7 @@ Route::get('/onlineTutorial/portafolio', PortafolioComponent::class)->name('onli
 Route::get('/onlineTutorial/dataporta', PortaActionComponent::class)->name('online.dataporta'); 
 Route::get('/onlineTutorial/slidervideo', SlitVideoComponent::class)->name('online.slidervideo');
 Route::get('/onlineTutorial/checkout', CheckoutComponent::class)->name('online.checkout');
+Route::get('/onlineTutorial/wavyline', WavyLineComponent::class)->name('online.wavyline');
 
 /* Nueva Administaracion */
 Route::get('onlineTutorial/stacked-add',StackedAddComponent::class)->name('online.stackedAdd');

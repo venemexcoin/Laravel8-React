@@ -82,7 +82,9 @@
     <div class="container">
         <ul class="pagination">
           <li><a href="{{route('onlinetutorial.panel3')}}">Previous</a></li>
+          <li><a href="{{route('onlinetutorial.panel3')}}">int</a></li>
           <li><a href="{{route('panel3pagina1')}}">1</a></li>
+          <li><a href="#">2</a></li>
           <li><a href="{{route('panel3pagina1')}}">Next</a></li>
         </ul>
       </div>

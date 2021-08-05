@@ -1,11 +1,12 @@
 @extends('layouts.layout')
 
 @section('title_base')
-            Animaciones
+            Animaciones Pag1
 @endsection
 
 @section('style')
 <link rel="stylesheet" href="{{asset('assets/css/onlinetutorial/onlinepanel.css')}}">
+
 @endsection
 
 

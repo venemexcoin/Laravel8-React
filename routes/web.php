@@ -44,6 +44,9 @@ use App\Http\Livewire\OnlineTutorial\PortaActionComponent;
 use App\Http\Livewire\OnlineTutorial\SlitVideoComponent;
 use App\Http\Livewire\OnlineTutorial\CheckoutComponent; 
 use App\Http\Livewire\OnlineTutorial\WavyLineComponent;
+use App\Http\Livewire\OnlineTutorial\layeredImageComponent;
+use App\Http\Livewire\OnlineTutorial\CornerTextComponent;
+use App\Http\Livewire\OnlineTutorial\GlassCardComponent;
 
 
 use App\Http\Livewire\Codinglab\WorkingComponent;
@@ -163,9 +166,12 @@ Route::get('/onlineTutorial/dataporta', PortaActionComponent::class)->name('onli
 Route::get('/onlineTutorial/slidervideo', SlitVideoComponent::class)->name('online.slidervideo');
 Route::get('/onlineTutorial/checkout', CheckoutComponent::class)->name('online.checkout');
 Route::get('/onlineTutorial/wavyline', WavyLineComponent::class)->name('online.wavyline');
+Route::get('/onlineTutorial/layeredimage',layeredImageComponent::class)->name('online.layeredimage');
+Route::get('/onlineTutorial/cornertext', CornerTextComponent::class)->name('online.cornertext');
+Route::get('/onlineTutorial/glasscard', GlassCardComponent::class)->name('online.glasscard');
 
 /* Nueva Administaracion */
-Route::get('onlineTutorial/stacked-add',StackedAddComponent::class)->name('online.stackedAdd');
+Route::get('/onlineTutorial/stacked-add',StackedAddComponent::class)->name('online.stackedAdd');
 
 
 /*Codigo CodingLab */

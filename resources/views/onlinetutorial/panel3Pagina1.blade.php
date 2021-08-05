@@ -68,25 +68,28 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/cornertext.png')}}" alt="">
             <div class="overlay">
-                <a href="#"></a>
-                <h4>Animaciones</h4>
+                <a href="{{route('online.cornertext')}}">Corner Text Parallax</a>
+                <h4>Animate</h4>
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/CardPersonal.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Visualizas</a>
-                <h4>Animaciones</h4>
+                <a href="{{route('online.glasscard')}}">Gloss Card</a>
+                <h4>Animated</h4>
             </div>
         </div>
         <!-- <div class="imagen">
             <img src="img/1 (2).jpg" alt="">
         </div> -->
+          <!-- paginacion  --->
+     @livewire('online-tutorial.paginacion-component')
+     <!-- fin paginacion --->  
     </div>
     <!-- paginacion  --->
-        
+     
 
     <!-- fin paginacion --->
 </div>

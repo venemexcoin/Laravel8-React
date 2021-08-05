@@ -12,7 +12,7 @@ class PrincipaluComponent extends Component
 
     public function render()
     {
-        $vistas = Menucodinglab::paginate(2);
+        $vistas = Menucodinglab::paginate(9);
 
         return view('livewire.codinglab.principalu-component', ['vistas'=> $vistas])->layout('layouts.CodingLab.base');
     }

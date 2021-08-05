@@ -39,10 +39,10 @@
             </div>
         </div>
         <div class="imagen">
-            <img src="{{ asset('assets/img/galeria/disponible.png')}}" alt="">
+            <img src="{{ asset('assets/img/galeria/layeredImage.png')}}" alt="">
             <div class="overlay">
-                <a href="#">Disponible</a>
-                <h4>Tarjeta</h4>
+                <a href="{{route('online.layeredimage')}}">2SD to 3D CSS 3D</a>
+                <h4>Layoud</h4>
             </div>
         </div>
         <div class="imagen">

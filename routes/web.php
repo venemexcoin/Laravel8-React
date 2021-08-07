@@ -68,6 +68,9 @@ use App\Http\Livewire\Varios\Pactica2Component;
 
 use App\Http\Livewire\CodigoNepal\CamptchaComponent;
 use App\Http\Livewire\CodigoNepal\DraggableComponent; 
+use App\Http\Livewire\CodigoNepal\MenuAllComponent;
+use App\Http\Livewire\CodigoNepal\PrincipalComponent;
+use App\Http\Livewire\CodigoNepal\UserLocationComponent;
 
 
 /*
@@ -100,6 +103,9 @@ Route::get("/ejemplo2", [PruebaController::class, 'ejemplo2']);
 Route::get("/codigonepal", [CodigonepalController::class, 'codigonepal']);
 Route::get("/codigonepal/capcha", CamptchaComponent::class)->name('codigonepal.capcha');
 Route::get("/codigonepal/draggable", DraggableComponent::class)->name('codigonepal.draggable');
+Route::get('/codigonepal/menuall', MenuAllComponent::class)->name('codigonepal.menuall');
+Route::get('/codigonepal/principal', PrincipalComponent::class)->name('codigonepal.principal');
+Route::get('/codigonepal/userlocation',UserLocationComponent::class)->name('codigonepal.userlocation');
 
 
 

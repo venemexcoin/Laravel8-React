@@ -1,9 +1,7 @@
 
-@push('title_base')
-Using Menu Component
-@endpush
 
-@push('styles')
+
+<div>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 ::-moz-selection {
@@ -131,12 +129,12 @@ body {
     justify-content:flex-end;
     align-items: flex-start;
     min-height: 100vh;
-    background: #232c33;
+    background: #d6edff;
     margin-right: 10px; 
 }
 .navigation {
     position: relative;
-    height: 585px;
+    height: 680px;
     width: 70px;
     background: #2b343b;
     box-shadow: 10px 0 0 #4187f6;
@@ -147,6 +145,7 @@ body {
 }
 .navigation:hover {
     width: 300px;
+    
 }
 .navigation ul {
     position: absolute;
@@ -218,14 +217,12 @@ body {
     white-space: nowrap;
 }
 
-
 </style>
-@endpush
-<div>
+    <main>
     <div class="navigation">
         <ul>
             <li class="list active">
-                <a href="#">
+                <a href="/">
                     <span class="icon">
                         <ion-icon name="home-outline"></ion-icon>
                     </span>
@@ -282,7 +279,9 @@ body {
             </li>
         </ul>
     </div>
+   
 </div>
+</main>
 @push('scripts')
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -299,3 +298,4 @@ body {
     item.addEventListener('click', activeLink));
 </script>
 @endpush
+

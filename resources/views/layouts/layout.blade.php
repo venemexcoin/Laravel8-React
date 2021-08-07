@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/layout.css')}}">
     <script src="https://kit.fontawesome.com/3226d1ef96.js" crossorigin="anonymous"></script>
     @yield('style')
+    @livewireStyles
    </head>
 <body>
 
@@ -63,14 +64,14 @@
             </li>
           </ul>
         </div>
-        <div class="social_media">
+        {{-- <div class="social_media">
           <ul>
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-youtube"></i></a>
           </ul>
-        </div>
+        </div> --}}
       </div>
       
     @yield('content')
@@ -78,5 +79,6 @@
 
     <script src="{{asset('js/app.js')}}"></script>
     @yield('script')
+    @livewireScripts
 </body>
 </html>    
